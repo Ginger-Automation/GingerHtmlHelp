@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <content>
+    <index type="boolean">true</index>
+    <toc>
+      <path>../../toc/Default.toc</path>
+      <name>Default</name>
+    </toc>
+    <glossary>
+      <path>../../glossary/Default.glo</path>
+      <name>Default</name>
+    </glossary>
+    <masterpage></masterpage>
+    <brs type="array"></brs>
+    <mapFiles type="array"></mapFiles>
+    <generatetoc type="boolean">true</generatetoc>
+  </content>
+  <starterPage>Default.pdf</starterPage>
+  <search>
+    <context type="boolean">false</context>
+    <contextLimit></contextLimit>
+  </search>
+  <sitemap>
+    <use type="boolean">false</use>
+    <changeFrequency></changeFrequency>
+    <helpBaseURL></helpBaseURL>
+  </sitemap>
+  <name>PDF</name>
+  <type>pdf</type>
+  <title>Blank Project</title>
+  <defaultTopic></defaultTopic>
+  <pdf>
+    <multiHeaders type="boolean">false</multiHeaders>
+    <margin type="array">
+      <marginitem type="number">15</marginitem>
+      <marginitem type="number">15</marginitem>
+      <marginitem type="number">15</marginitem>
+      <marginitem type="number">15</marginitem>
+    </margin>
+    <multiheaders type="boolean">false</multiheaders>
+  </pdf>
+  <outputPath>C:/Users/natishak/Documents/My RoboHelp Projects/outputs/Ginger Help Library/PDF</outputPath>
+</preset>

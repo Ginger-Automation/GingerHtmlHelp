@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <title>Blank Project</title>
+  <content>
+    <toc>
+      <path>../../toc/Ginger_Help_Library.toc</path>
+    </toc>
+    <index type="boolean">true</index>
+    <glossary>
+      <name>Default</name>
+      <path>../../glossary/Default.glo</path>
+    </glossary>
+    <brs type="array"></brs>
+  </content>
+  <type>html5</type>
+  <glosstermEffect type="number">0</glosstermEffect>
+  <outputPath>C:/Users/natishak/Documents/My RoboHelp Projects/outputs/Ginger Help Library/Responsive HTML5</outputPath>
+  <name>Responsive HTML5</name>
+  <starterPage>index.htm</starterPage>
+  <defaultTopic>
+    <name>First_Topic</name>
+    <path>../../contents/First_Topic.htm</path>
+  </defaultTopic>
+  <search>
+    <suggestion type="boolean">true</suggestion>
+    <context type="boolean">true</context>
+    <contextLimit type="number">100</contextLimit>
+    <glossary type="boolean">true</glossary>
+    <fuzzy type="boolean">true</fuzzy>
+  </search>
+  <sitemap>
+    <use type="boolean">true</use>
+    <helpBaseURL></helpBaseURL>
+    <changeFrequency></changeFrequency>
+  </sitemap>
+  <skin>
+    <path>../skins/Azure_Blue/html5.skn</path>
+  </skin>
+  <createThumbNails type="boolean">true</createThumbNails>
+</preset>

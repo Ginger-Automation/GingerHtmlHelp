@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <title>Ginger Help Library</title>
+  <content>
+    <toc>
+      <name>Default</name>
+      <path>../../toc/Default.toc</path>
+    </toc>
+    <index type="boolean">true</index>
+  </content>
+  <type>html5</type>
+  <glosstermEffect type="number">0</glosstermEffect>
+  <outputPath>C:/Users/natishak/Documents/My RoboHelp Projects/outputs/Ginger Help Library/GingerHelpTheme</outputPath>
+  <name>GingerHelpTheme</name>
+  <starterPage>index.htm</starterPage>
+  <search>
+    <suggestion type="boolean">true</suggestion>
+    <context type="boolean">false</context>
+    <contextLimit type="number">100</contextLimit>
+    <glossary type="boolean">true</glossary>
+    <fuzzy type="boolean">true</fuzzy>
+  </search>
+  <sitemap>
+    <use type="boolean">false</use>
+  </sitemap>
+  <skin>
+    <name>html5</name>
+    <path>../skins/Azure_Blue/html5.skn</path>
+  </skin>
+  <createThumbNails type="boolean">false</createThumbNails>
+  <favicon>
+    <name>image47</name>
+    <path>../../contents/assets/images/image47.png</path>
+  </favicon>
+  <serversStatus type="array">
+    <serversStatusitem>
+      <name>Profile_1</name>
+    </serversStatusitem>
+  </serversStatus>
+  <republish type="boolean">true</republish>
+</preset>
