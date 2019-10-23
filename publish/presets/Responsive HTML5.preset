@@ -4,6 +4,7 @@
   <content>
     <toc>
       <path>../../toc/Ginger_Help_Library.toc</path>
+      <name>Ginger_Help_Library</name>
     </toc>
     <index type="boolean">true</index>
     <glossary>
@@ -14,7 +15,7 @@
   </content>
   <type>html5</type>
   <glosstermEffect type="number">0</glosstermEffect>
-  <outputPath>C:/Users/natishak/Documents/My RoboHelp Projects/outputs/Ginger Help Library/Responsive HTML5</outputPath>
+  <outputPath>C:/Ginger Help Libs/Output Ginger HTML/</outputPath>
   <name>Responsive HTML5</name>
   <starterPage>index.htm</starterPage>
   <defaultTopic>
@@ -35,6 +36,7 @@
   </sitemap>
   <skin>
     <path>../skins/Azure_Blue/html5.skn</path>
+    <name>html5</name>
   </skin>
   <createThumbNails type="boolean">true</createThumbNails>
 </preset>
