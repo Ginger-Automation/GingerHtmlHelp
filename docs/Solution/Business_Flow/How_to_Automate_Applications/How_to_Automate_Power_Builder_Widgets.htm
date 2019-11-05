@@ -58,17 +58,19 @@
   <p><span style="font-size:17px;"><strong><span style="font-size:20px;">Description  </span>  </strong><br/>
       Ginger Power Builder Widgets means web page or web browser embedded in power Builder window. <br/>
       Widget window contains different elements button, text fields, labels, check box, drop down, radio button, combo box, links etc.</span></p>
-  <p><span style="font-size:17px;"><strong style="font-size: 20px">Prerequisite</strong><br/>
+  <p><span style="font-size:17px;"><strong style="font-size: 20px">Pre-requisite</strong><br/>
       Ginger and target Power Builder application should be launched from the same machine.</span></p>
   <p><strong><span style="font-size:20px">Steps to use Ginger for Widget Operation</span></strong></p>
   <p><span style="font-size:17px;">    1.    Select Widget Window on Window Explorer Dropdown<br/>
                  Please follow below steps for selecting widget window:<br/>
                     1.    Open Ginger<br/>
-                    2.    Start Power Builder CSM agent from Automate tab-&gt;Agent<br/>
-                    3.    Open Window Explorer from Automate Tab-&gt;Agent-&gt;Window Explorer (next to Agent on-Off button)<br/>
-                    4.    Click on Refresh button present on top right of window explorer<br/>
-                    5.    Select Widget Window from dropdown present on top of window explorer</span></p>
-  <p>                      <img src="../../../assets/images/image914.png"/></p>
+                    2.    Start Power Builder CSM agent from Business Flow tab-&gt;Agent<br/>
+                    3.    Open Window Explorer by adding the &#39;Add Actions&#39; button-&gt; Explorer (This will be displayed only when the Agent is On)</span></p>
+  <p><span style="font-size:17px;">                      <img height="353" src="../../../assets/images/image1463.png" width="317"/></span></p>
+  <p><span style="font-size:17px;"><br/>
+                    4.    Click on Window drop down and select the CSM Widgets Test Application            </span></p>
+  <p>                      <img height="440" src="../../../assets/images/image1464.png" width="341"/></p>
+  <p> </p>
   <p><span style="font-size:17px;">    2.    Find and Initialize Browser element from Tree<br/>
                  Follow below steps to find and Initialize Browser Element:<br/>
                     1.    Add Switch Window Action (Mandatory Action )<br/>
@@ -76,34 +78,41 @@
                     3.    Select / Click on Browser Element present on tree<br/>
                     4.    Run “Initialize Browser” Action present under Element Details &amp; Action -&gt; Action <br/>
                     5.    Add “Initialize Browser” Action in solution.</span></p>
-  <p>                       <img src="../../../assets/images/image915.png"/>  </p>
+  <p>                       <img height="668" src="../../../assets/images/image1465.png" width="396"/>  </p>
   <p><span style="font-size:17px;">                                <br/>
           3.    Find Html Elements on Window Explorer<br/>
                  Follow below steps to find Html Elements</span></p>
   <p><span style="font-size:17px;">                3.1.    Find Element by Live Spy:<br/>
                                 Follow below steps to find element by live spy<br/>
-                                  1.    Initialize Browser element by mention above<br/>
-                                  2.    Click on “Live Spy” button present on top left of window explorer<br/>
-                                  3.    Move cursor on expected element on widget window<br/>
-                                  4.    Press “Control” key of keyboard</span></p>
-  <p><span style="font-size:17px;">                          Expected widget element will get highlighted by red color of border and you will find the expected element details like title,                            value, XPath, available action with different locators on window explorer.</span></p>
-  <p><span style="font-size:17px;">                               <img src="../../../assets/images/image916.png"/>     </span></p>
+                                  1.    Initialize Browser element by mention above</span></p>
+  <p><span style="font-size:17px;">                            2.    Click on the Back button to come out of the Explorer</span></p>
+  <p><span style="font-size:17px;">                                   <img height="325" src="../../../assets/images/image1466.png" width="307"/>    </span></p>
+  <p><span style="font-size:17px;"><br/>
+                                  3.    Click on “Live Spy” button</span></p>
+  <p><span style="font-size:17px;">                                   <img height="282" src="../../../assets/images/image1467.png" width="243"/></span></p>
+  <p><span style="font-size:17px;">                            4. Select &#39;<span style="font-size:17px;">CSM Widgets Test Application&#39; from Window drop down after which the Spy button gets enabled.</span></span></p>
+  <p><span style="font-size:17px;">                                    <img height="134" src="../../../assets/images/image1469.png" width="393"/></span></p>
+  <p><span style="font-size:17px;">                            5. Click on the Spy button and m<span style="font-size:17px;">ove the cursor on expected element on widget window.<br/>
+                                         Press “Control” key of keyboard</span><br/>
+                                      </span></p>
+  <p><span style="font-size:17px;">                                  Expected widget element will get highlighted by red color of border and you will find the expected element details like title,                            value, XPath, available action with different locators on window explorer.</span></p>
+  <p><span style="font-size:17px;">                               <img height="419" src="../../../assets/images/image1471.png" width="758"/>     </span></p>
   <p><span style="font-size:17px;"><br/>
                       3.2.    Find Element on Tree View of Window Explorer:<br/>
                                 Expand the Tree elements until get the expected Html Element on Tree of window explorer.</span></p>
-  <p>                           <img src="../../../assets/images/image917.png"/></p>
+  <p>                           <img height="597" src="../../../assets/images/image1472.png" width="351"/></p>
   <p><span style="font-size:17px;">                3.3.    Find Element on Grid View of Window Explorer:<br/>
                                  1.    Click on Grid View Button present on right side on Window element tab on Window Explorer<br/>
                                  2.    Click on “Refresh Controls” button present on Window element tab on Window Explorer<br/>
                                  3.    Select expected Html Element from grid.<br/>
-                                        <img src="../../../assets/images/image918.png"/></span></p>
+                                        <img height="424" src="../../../assets/images/image1474.png" width="494"/></span></p>
   <p><span style="font-size:17px;">                3.4    Perform &amp; Add different Actions on Html Element<br/>
                                Follow below steps perform &amp; add action on html elements</span></p>
   <p><span style="font-size:17px;">                             1.    Find Available Actions &amp; locators in Action tab<br/>
                                              a.    After selecting expected html element from Window Element tab (from tree view or grid view), go to Action                                                    tab present under Element Details &amp; Actions tab.<br/>
                                              b.    Select different Actions from Actions Tab under Element Details &amp; Action tab<br/>
                                              c.    Select different Locators from Locators Tab under Element Details &amp; Action tab</span></p>
-  <p><span style="font-size:17px;">                                               <img src="../../../assets/images/image919.png"/><br/>
+  <p><span style="font-size:17px;">                                               <img height="628" src="../../../assets/images/image1475.png" width="467"/><br/>
           <br/>
                                    2.    Run the Action<br/>
                                          You can run the Action by click on Run Action button present on bottom left under Element Details &amp; Action tab of window explorer.<br/>
