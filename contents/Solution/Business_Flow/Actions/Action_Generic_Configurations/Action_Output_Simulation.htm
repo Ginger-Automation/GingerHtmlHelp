@@ -16,42 +16,53 @@
   <p><span style="font-size:17px;"><strong style="font-size: 20px"></strong><br />
                <strong>Action Level configuration</strong><br />
                Open the action for which you want to simulate output, and go to ‘Output Values’ tab<br />
-               By default ‘Support Simulation’ checkbox is unmarked, by checking the checkbox the view of Output Values fields will change, 3 new columns will be added to the view : “Simulated Actual” , “…”,”&lt;&lt;” : </span></p>
-  <p>           <img src="../../../../assets/images/image509.png" /><img src="../../../../assets/images/image86.png" /></p>
+               By default ‘Support Simulation’ checkbox is unmarked.</span></p>
+  <p>           <img height="495" src="../../../../assets/images/image1352.png" width="877" /></p>
+  <p> </p>
+  <p>    <img height="212" src="../../../../assets/images/image1349.png" width="921" /></p>
+  <p> </p>
+  <p><span style="font-size:17px;">By checking the checkbox the view of Output Values fields will change, 3 new columns will be added to the view : “Simulated Actual” , “…”,”&lt;&lt;” :</span></p>
+  <p>    <img height="202" src="../../../../assets/images/image1351.png" width="882" /></p>
+  <p> </p>
   <p> </p>
   <p><span style="font-size:17px;">         The user can populate the “Simulated Actual” field manual or use the “…” to populate the field using the Value Editor Expression window. </span></p>
   <p><span style="font-size:17px;">        Another option is to use the”&lt;&lt;” button to copy the actual value field to the “Simulated Actual” field.  </span></p>
-  <p>          <img src="../../../../assets/images/image508.png" /><img src="../../../../assets/images/image87.png" /></p>
+  <p>          <img src="../../../../assets/images/image508.png" />          </p>
+  <p>      <img src="../../../../assets/images/image87.png" /></p>
   <p> </p>
-  <p><span style="font-size:17px;">        <strong>Automate Tab Level configuration</strong><br />
-              Go To ‘Automate Tab’ and click the ‘Run in Simulation mode’ checkbox:</span></p>
-  <p><span style="font-size:17px;">        <img src="../../../../assets/images/image507.png" /><img src="../../../../assets/images/image88.png" /></span></p>
+  <p><span style="font-size:17px;">        <strong>Business Flow Level configuration</strong><br />
+              Go to the Business Flow and click on the ‘All Execution Configurations’ button:</span><span style="font-size:17px;">        </span></p>
+  <p><span style="font-size:17px;">          <img height="134" src="../../../../assets/images/image1357.png" width="887" /></span></p>
+  <p> </p>
+  <p><span style="font-size:17px;">           The Run in simulation mode checkbox is displayed in the Configurations window.</span></p>
+  <p><span style="font-size:17px;">           <img height="269" src="../../../../assets/images/image1358.png" width="383" /> </span></p>
   <p><span style="font-size:17px;"><br />
        <br />
               <strong>Ginger Runner Configuration</strong><br />
                In the run tab go to the Ginger window and click on the configurations icon</span></p>
-  <p><span style="font-size:17px;">         <img src="../../../../assets/images/image506.png" /><img src="../../../../assets/images/image89.png" /><br />
-       <br />
+  <p><span style="font-size:17px;">         <img height="319" src="../../../../assets/images/image1354.png" width="489" /></span></p>
+  <p><span style="font-size:17px;">         <br />
                 Click the ‘Run in simulation mode’ checkbox:</span></p>
-  <p><span style="font-size:17px;">          <img src="../../../../assets/images/image505.png" /><img src="../../../../assets/images/image90.png" /><br />
+  <p><span style="font-size:17px;">          <img height="293" src="../../../../assets/images/image1355.png" width="368" /></span></p>
+  <p><span style="font-size:17px;"><br />
        <br />
       <strong style="font-size: 20px">2.    Execution </strong></span></p>
   <p> </p>
   <p><span style="font-size:17px;">         <strong>Action Level </strong><br />
                At this point if the action will not be executed. Ginger mechanism will copy the value from ‘Simulated Actual’ column to the ‘Actual’ column and will compare its value to the one populated in the ‘Expected’ column. </span></p>
   <p><span style="font-size:17px;">         The action is not going to be executed but rather based on output validation the action will be Passed/Failed</span></p>
-  <p>          <img src="../../../../assets/images/image504.png" /><img src="../../../../assets/images/image91.png" /></p>
+  <p>          <img src="../../../../assets/images/image91.png" /></p>
   <p> </p>
   <p><span style="font-size:17px;">          When the ‘Support Simulation’ checkbox is marked in the action a button ‘Simulate Run’ will be visible clicking it will execute the action in simulation mode:<br />
-                <img src="../../../../assets/images/image503.png" /><img src="../../../../assets/images/image92.png" /></span></p>
+                <img height="222" src="../../../../assets/images/image1356.png" width="922" /></span></p>
   <p><span style="font-size:17px;"><br />
                <strong>Activity/Business Flow</strong> <br />
-              When the check box is marked any actions that are marked as output simulation will be run as such, if the activity contains actions that require an agent start, the agent will be started. For example a browser window will be launched.</span></p>
-  <p><span style="font-size:17px;">        In the activity grid a checkbox allows the user to select whether the action will be executed in simulation mode, if no special configuration was made in the simulated values fields then there is a possibility that the action will fail. <br />
-              After an action was executed it will indicate in the Extra info column execution mode.</span></p>
-  <p>           <img src="../../../../assets/images/image93.png" /> <img src="../../../../assets/images/image502.png" /></p>
+              When the check box is marked any actions that are marked as output simulation will be run as such, if the activity contains actions              </span><span style="font-size:17px;">that require an agent start, the agent will be started. For example a browser window will be launched.</span></p>
+  <p><span style="font-size:17px;">         In the activity grid a checkbox allows the user to select whether the action will be executed in simulation mode, if no special                       </span><span style="font-size:17px;">configuration was made in the simulated values fields then there is a possibility that the action will fail. <br />
+               After an action was executed it will indicate in the Extra info column execution mode.</span></p>
+  <p>           <img src="../../../../assets/images/image93.png" /> </p>
   <p><span style="font-size:17px;">       <strong> Ginger Runner level </strong><br />
-          Any business flows added to this ginger runner depending if they have any actions with output simulation marked will be executed in simulation mode.</span></p>
+              Any business flows added to this ginger runner depending if they have any actions with output simulation marked will be executed in simulation mode.</span></p>
   <p> </p>
   <p> </p>
 </body>
