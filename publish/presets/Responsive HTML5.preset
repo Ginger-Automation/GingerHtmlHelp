@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <preset>
-  <title>Blank Project</title>
+  <title>Ginger Help Library</title>
   <content>
     <toc>
-      <path>../../toc/Ginger_Help_Library.toc</path>
       <name>Ginger_Help_Library</name>
+      <path>../../toc/Ginger_Help_Library.toc</path>
     </toc>
     <index type="boolean">true</index>
     <glossary>
@@ -35,8 +35,8 @@
     <changeFrequency></changeFrequency>
   </sitemap>
   <skin>
-    <path>../skins/Azure_Blue/html5.skn</path>
     <name>html5</name>
+    <path>../skins/Azure_Blue/html5.skn</path>
   </skin>
   <createThumbNails type="boolean">true</createThumbNails>
 </preset>
