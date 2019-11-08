@@ -34,53 +34,53 @@
                   a.    Go to https://developer.apple.com/<br />
                   b.    Click on Member Center and login using your iOS Developer Account<br />
                   c.    Click on Certificates, Identifiers &amp; Profiles<br />
-                         <img src="../../../../../../assets/images/image333.png" /><img src="../../../../../../assets/images/image312.png" /></span></p>
+                         <img height="214" src="../../../../../../assets/images/image312.png" width="599" /></span></p>
   <p><span style="font-size:17px;"><br />
                  d.    Click on iOS Apps-&gt;Certificates<br />
                 </span><span style="font-size:17px;"> e.    Validate your account has a valid iOS Development and iOS Distribution certificates<br />
-                          <img src="../../../../../../assets/images/image334.png" /><img src="../../../../../../assets/images/image313.png" /></span></p>
+                          <img height="176" src="../../../../../../assets/images/image313.png" width="578" /></span></p>
   <p><span style="font-size:17px;"><br />
                    f.    Create an App ID for SafariLauncher app (if existing one can’t be used):<br />
                          I.    Click on Identifiers-&gt; App IDs-&gt;Add<br />
-                                 <img src="../../../../../../assets/images/image335.png" /><img src="../../../../../../assets/images/image314.png" /></span></p>
+                                 <img height="220" src="../../../../../../assets/images/image314.png" width="531" /></span></p>
   <p><span style="font-size:17px;"> <br />
                        II.    Give the App ID some Name to be identified in the App IDs list<br />
                       III.    Select Wildcard App ID radio button<br />
                       IV.    Set the Bundle ID as “*”<br />
-                              <img src="../../../../../../assets/images/image336.png" /><img src="../../../../../../assets/images/image315.png" /><br />
+                              <img src="../../../../../../assets/images/image315.png" /><br />
                        V.    Click Continue<br />
                       VI.    Click Submit<br />
                      VII.    Click Done<br />
                     VIII.    Validate the new App ID was added to the list<br />
-                               <img src="../../../../../../assets/images/image337.png" /><img src="../../../../../../assets/images/image316.png" /></span></p>
+                               <img src="../../../../../../assets/images/image316.png" /></span></p>
   <p><span style="font-size:17px;"><br />
                  g.    Add your real device to the Devices list (in case it’s not already there):<br />
                         I.    Click on Devices-&gt; All-&gt;Add<br />
-                               <img src="../../../../../../assets/images/image338.png" /><img src="../../../../../../assets/images/image317.png" /></span></p>
+                               <img src="../../../../../../assets/images/image317.png" /></span></p>
   <p><span style="font-size:17px;"><br />
                        II.    Set the real device Name as it appear in step 2.2<br />
                       III.    Set the real device UDID as it appear in step 2.2<br />
-                              <img src="../../../../../../assets/images/image339.png" /><img src="../../../../../../assets/images/image318.png" /></span></p>
+                              <img src="../../../../../../assets/images/image318.png" /></span></p>
   <p><span style="font-size:17px;"><br />
                        IV.    Click on Continue<br />
                         V.    Click on Register<br />
                        VI.    Validate the device was added to the Devices list</span></p>
   <p><span style="font-size:17px;">          h.    Create Provisioning Profile for the SafariLauncher app (if existing one can’t be used, for editing existing one just select it and click Edit button)<br />
                       I.    Click on Provisioning Profile-&gt;All-&gt;Add<br />
-                            <img src="../../../../../../assets/images/image340.png" /><img src="../../../../../../assets/images/image319.png" /></span></p>
+                            <img src="../../../../../../assets/images/image319.png" /></span></p>
   <p><span style="font-size:17px;"><br />
                      II.    Select Development -&gt; iOS App Development and click Continue<br />
-                             <img src="../../../../../../assets/images/image342.png" /><img src="../../../../../../assets/images/image320.png" /></span></p>
+                             <img src="../../../../../../assets/images/image320.png" /></span></p>
   <p><span style="font-size:17px;"><br />
                     III.    Select the wildcard App ID you created in step 1.f and click Continue<br />
-                             <img src="../../../../../../assets/images/image343.png" /><img src="../../../../../../assets/images/image321.png" /></span></p>
+                             <img src="../../../../../../assets/images/image321.png" /></span></p>
   <p><span style="font-size:17px;"><br />
                      IV.    Select your account iOS Distribution certificate and click Continue<br />
                       V.    Select your real device which was added in step 1.g (you can select all devices)<br />
-                                 <img src="../../../../../../assets/images/image322.png" /> <img src="../../../../../../assets/images/image344.png" /></span></p>
+                                 <img src="../../../../../../assets/images/image322.png" /> </span></p>
   <p><span style="font-size:17px;"><br />
                      VI.    Give your provisioning profile a Name which will be used to recognize it<br />
-                               <img src="../../../../../../assets/images/image345.png" /><img src="../../../../../../assets/images/image323.png" /></span></p>
+                               <img src="../../../../../../assets/images/image323.png" /></span></p>
   <p><span style="font-size:17px;"><br />
                     VII.    Click on Generate<br />
                    VIII.    Click on the Download button for downloading the Provisioning Profile file to your Mac machine (Downloads folder)<br />
@@ -89,10 +89,10 @@
                      XI.    Noting visible supposed to happen<br />
                     XII.    Open the Provisioning Profile file in Text editor by<br />
                           1. Right click the file and click on Open With-&gt;Other…-&gt;TextEdit<br />
-                               <img src="../../../../../../assets/images/image346.png" /><img src="../../../../../../assets/images/image324.png" /></span></p>
+                               <img height="397" src="../../../../../../assets/images/image324.png" width="539" /></span></p>
   <p><span style="font-size:17px;"><br />
                           2.    Search for the TeamIdentifier and UUID (Provisioning Profile ID) keys in the text document<br />
-                                 <img src="../../../../../../assets/images/image347.png" /><img src="../../../../../../assets/images/image325.png" /></span></p>
+                                 <img height="341" src="../../../../../../assets/images/image325.png" width="481" /></span></p>
   <p><span style="font-size:17px;"><br />
                           3.    Save those values for later use</span></p>
   <p><span style="font-size:17px;"><br />
@@ -105,21 +105,21 @@
                      cd appium <br />
               e.    Type below command for building and signing SafariLauncher app<br />
                      ./reset.sh --ios --real-safari --code-sign &lt;&lt;the_TeamIdentifier_Key_from step_4.2.XII&gt;&gt; --profile &lt;&lt;the_UUID_Key_from         step_4.2.XII&gt;&gt; --verbose<br />
-                      <img src="../../../../../../assets/images/image348.png" /><img src="../../../../../../assets/images/image326.png" /></span></p>
+                      <img src="../../../../../../assets/images/image326.png" /></span></p>
   <p><span style="font-size:17px;"><br />
               f.    Make sure it ended successfully<br />
-                       <img src="../../../../../../assets/images/image327.png" /><img src="../../../../../../assets/images/image349.png" /></span></p>
+                       <img src="../../../../../../assets/images/image327.png" /></span></p>
   <p><span style="font-size:17px;"><br />
               g.    In case running Appium using the Appium.App, need to copy the built &amp; signed SafariLauncher app into it:<br />
                     I.    Open “Finder” and go to the appium source files build folder- supposed to be located in “/Users/&lt;&lt;MAC_USER_NAME&gt;&gt;/appium/build”<br />
                    II.    Copy “SafariLauncher” folder which in it<br />
-                         <img src="../../../../../../assets/images/image350.png" /><img src="../../../../../../assets/images/image328.png" /></span></p>
+                         <img src="../../../../../../assets/images/image328.png" /></span></p>
   <p><span style="font-size:17px;"><br />
                   III.    Go to the Appium.App “Build” folder by right click on the “Appium” app in “Applications” folder, choose “Show Package                            </span><span style="font-size:17px;"> Contents” and go to “/Applications/Appium.app/Contents/Resources/node_modules/appium/build”<br />
-                        <img src="../../../../../../assets/images/image351.png" />   <img src="../../../../../../assets/images/image329.png" /></span></p>
+                           <img src="../../../../../../assets/images/image329.png" /></span></p>
   <p><span style="font-size:17px;"><br />
                    IV.    Paste the “SafariLauncher” folder into it</span><br />
-                         <img src="../../../../../../assets/images/image352.png" /><img src="../../../../../../assets/images/image330.png" /></p>
+                         <img src="../../../../../../assets/images/image330.png" /></p>
   <p><span style="font-size:17px;"><br />
       <strong style="font-size: 20px">  3.  Prepare Appium Server for Web Testing</strong></span></p>
   <p><span style="font-size:17px;"><strong style="font-size: 20px"></strong><br />
@@ -127,7 +127,7 @@
                   a.    Go to the Mac main menu bar Utilities-&gt; Terminal<br />
                   b.    Type and run below command to run ios-webkit-debug-proxy:<br />
                           ios_webkit_debug_proxy –c &lt;&lt;REAL_DEVICE_UDID_founded in step 2.2&gt;&gt;:27753 –d<br />
-                          <img src="../../../../../../assets/images/image353.png" /><img src="../../../../../../assets/images/image331.png" /><br />
+                          <img src="../../../../../../assets/images/image331.png" /><br />
                   c.    Validate no error showing<br />
                   d.    Leave the Terminal window open- ios-webkit-debug-proxy is running!<br />
                   e.    Launch Appium server according to steps in section 1.3</span></p>
@@ -136,7 +136,7 @@
                   a.    Launch Ginger (on the Windows machine which is in the same network like the Appium Mac machine)<br />
                   b.    Create Business Flow with the Mobile platform<br />
                   c.    Add new Agent, give it logical name and select the MobileAppiumIOSBrowser driver<br />
-                          <img src="../../../../../../assets/images/image354.png" /><img src="../../../../../../assets/images/image332.png" /><br />
+                          <img height="387" src="../../../../../../assets/images/image1916.png" width="507" /><br />
                   d.    Define the Agent Driver Configurations as follow:<br />
                       1.    StartAppiumServerAutomatically – “false” or “true” if you want Ginger to start Appium server automatically.<br />
                       2.     AppiumServerIP – set IP value for Appium server.<br />
@@ -151,16 +151,16 @@
                           InstalledAppActivity: The tested app Package found in step 1.d <span style="font-size:17px;">of &quot;Native/Hybrid App Testing on Real Device Setup&quot; file</span><br />
                           Else, in case using the tested app APK file:<br />
                           AppInstallerPath: The full path to the tested app APK file on the Appium server machine.<br />
-                            <img src="../../../../../../assets/images/image355.png" /><img src="../../../../../../assets/images/image333.png" /></span></p>
+                            <img src="../../../../../../assets/images/image333.png" /></span></p>
   <p><span style="font-size:17px;"><br />
                   e.    Save the Agent settings<br />
                   f.    Select the Business Flow created in step b and shift to the Automate tab<br />
                   g.    Select the Agent created in step c from the Agents selection in the ribbon<br />
                   h.    Click on Launch Agent<br />
                   i.    If you choose to start Appium Manually: Make sure that the connection request got to the Appium server, you supposed to see                         </span><span style="font-size:17px;">something like this in screen shot below<br />
-                       <img src="../../../../../../assets/images/image356.png" /><img src="../../../../../../assets/images/image334.png" /><br />
+                       <img src="../../../../../../assets/images/image334.png" /><br />
                   j.    Once the connection establish the Safari app supposed to be launched on the tested device and the Appium Mobile Driver                                </span><span style="font-size:17px;">Window supposed to appear on Ginger and allow you to execute Selenium Web Driver actions on it</span></p>
   <p>                  <img src="../../../../../../assets/images/image335.png" /></p>
-  <p>                    <img src="../../../../../../assets/images/image357.png" /></p>
+  <p>                    </p>
 </body>
 </html>

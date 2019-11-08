@@ -1,35 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <preset>
+  <title>Ginger Help Library</title>
   <content>
-    <index type="boolean">true</index>
     <toc>
-      <path>../../toc/Default.toc</path>
-      <name>Default</name>
+      <path>../../toc/Ginger_Help_Library.toc</path>
     </toc>
+    <index type="boolean">true</index>
     <glossary>
-      <path>../../glossary/Default.glo</path>
       <name>Default</name>
+      <path>../../glossary/Default.glo</path>
     </glossary>
-    <masterpage></masterpage>
     <brs type="array"></brs>
+    <language>
+      <name>en_UK</name>
+      <displayName>English (UK)</displayName>
+      <code type="number">2057</code>
+    </language>
+    <masterpage></masterpage>
     <mapFiles type="array"></mapFiles>
   </content>
+  <type>chm</type>
+  <outputPath>C:/Ginger Help Libs/Output Offline Help/</outputPath>
+  <name>Microsoft HTML Help</name>
   <starterPage>Default.chm</starterPage>
+  <defaultTopic>
+    <name>Introduction/What_is_Ginger_.htm</name>
+    <path>../../contents/Introduction/What_is_Ginger_.htm</path>
+  </defaultTopic>
   <search>
     <context type="boolean">false</context>
     <contextLimit></contextLimit>
   </search>
   <sitemap>
     <use type="boolean">false</use>
-    <changeFrequency></changeFrequency>
     <helpBaseURL></helpBaseURL>
+    <changeFrequency></changeFrequency>
   </sitemap>
-  <name>Microsoft HTML Help</name>
-  <type>chm</type>
-  <title>Blank Project</title>
-  <defaultTopic>
-    <name>First_Topic.htm</name>
-    <path>../../contents/First_Topic.htm</path>
-  </defaultTopic>
-  <outputPath>C:/Users/natishak/Documents/My RoboHelp Projects/outputs/Ginger Help Library/Microsoft HTML Help</outputPath>
 </preset>

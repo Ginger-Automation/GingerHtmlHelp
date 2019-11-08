@@ -11,12 +11,17 @@
 <body>
   <h1>How to Execute &amp; get Output Values from Groovy Script ?</h1>
   <p><span style="font-size:20px;"><strong>How to Execute an Groovy Script? </strong></span></p>
-  <p><span style="font-size:17px;">    1. Execute groovy script using external file.<br />
-              a.    Add Business Flow or select existing one and click on “Automate” for loading it in Automate page<br />
-              b.    Click on Add Action button, in loaded window go to “Plugins Actions”<br />
-              c.    Select “Execute Groovy Script File” Action</span></p>
-  <p><span style="font-size:17px;">              <img src="../../assets/images/image1222.png" /></span></p>
+  <p><span style="font-size:17px;">For this the Groovy plugin should be installed. For this refer to the topic &quot;How to Install Groovy Plugin?&quot;.</span></p>
+  <p><strong><span style="font-size:17px;">    1. Execute groovy script using external file</span></strong></p>
+  <p><span style="font-size:17px;">        a.    Double click on the desired Business Flow .<br />
+              b.    Click on &#39;Add Actions&#39; button. Select Actions Library in loaded window go to “Plugins Actions”</span></p>
+  <p><span style="font-size:17px;">                <img height="218" src="../../assets/images/image1594.png" width="237" /></span></p>
+  <p><span style="font-size:17px;">               <img height="325" src="../../assets/images/image1596.png" width="321" /></span></p>
   <p><span style="font-size:17px;"><br />
+              c.    Select “Execute Groovy Script File” Action and click on the &#39;Add to Actions&#39; button.</span></p>
+  <p>                 <img height="321" src="../../assets/images/image1597.png" width="318" /></p>
+  <p>                <img height="393" src="../../assets/images/image1599.png" width="843" />      <span style="font-size:17px;">              </span></p>
+  <p><span style="font-size:17px;">    <br />
               d.    Set Action configurations according to the below:</span></p>
   <p><span style="font-size:17px;">           </span></p>
   <table class="MsoTableGrid" style="margin-left:35.75pt; border-collapse:collapse; border:solid windowtext 1.0pt" width="702">
@@ -99,13 +104,15 @@
     </tbody>
   </table>
   <p><span style="font-size:17px;"> </span></p>
-  <p><span style="font-size:17px;">          <img src="../../assets/images/image1223.png" /></span></p>
-  <p><span style="font-size:17px;"><br />
-          2.     Execute groovy script using content.</span></p>
-  <p><span style="font-size:17px;">        a.    Add Business Flow or select existing one and click on “Automate” for loading it in Automate page<br />
-              b.    Click on Add Action button, in loaded window go to “Plugins Actions”<br />
-              c.    Select “Execute Groovy Script” Action</span></p>
-  <p><span style="font-size:17px;">              <img src="../../assets/images/image1224.png" /></span></p>
+  <p><span style="font-size:17px;">          </span></p>
+  <p><strong><span style="font-size:17px;">    2.     Execute groovy script using content.</span></strong></p>
+  <p><span style="font-size:17px;">        a.    Double click on the desired Business Flow </span></p>
+  <p><span style="font-size:17px;">        b.    Click on Add Action button. <span style="font-size:17px;">Select Actions Library in loaded window go to “Plugins Actions”</span></span></p>
+  <p><span style="font-size:17px;">                  <span style="font-size:17px;"><img height="218" src="../../assets/images/image1594.png" style="cursor: nwse-resize;" width="237" /></span></span></p>
+  <p><span style="font-size:17px;"><span style="font-size:17px;">                 <span style="font-size:17px;"><img height="236" src="../../assets/images/image1600.png" width="278" /></span></span><br />
+      <br />
+              c.    Select “Execute Groovy Script” Action and click on the &#39;Add to Actions&#39; button</span></p>
+  <p><span style="font-size:17px;">                <img height="262" src="../../assets/images/image1601.png" width="309" /></span></p>
   <p><span style="font-size:17px;"><br />
               d.    Set Action configurations according to the below:</span></p>
   <p><span style="font-size:17px;">               </span></p>
@@ -200,17 +207,17 @@
   <p><span style="font-size:17px;">    Groovy plugin supports getting output values from the Groovy Flow.<br />
           It been done by parsing all values which the Groovy flow write to the Console during execution, the parsing mechanism looks for any “key=value” pair and if it been found so the <br />
           Key and Value been added to the Action Output Values list.</span></p>
-  <p><span style="font-size:17px;">    1.    How to Get Output Values from Groovy Flow to Ginger Flow<br />
-              1.1    Prepare the Groovy Flow Code for Sharing Output Values<br />
+  <p><span style="font-size:17px;"><strong></strong><br />
+           1.  Prepare the Groovy Flow Code for Sharing Output Values<br />
                   a.    Open the Script in notepad or another Editor.<br />
                   b.    Look for the places in code (either tested class methods or actual test methods) which have values that can be shared with Ginger during execution<br />
                   c.    In each such place, add “println()” line of code with the Value key name equal to the value need to be shared, see sample below:</span></p>
   <p><span style="font-size:17px;">                  <img src="../../assets/images/image1225.png" /></span></p>
   <p><span style="font-size:17px;"><br />
-              1.2    Configure Ginger Groovy Plugin Action to Read Output Values<br />
-                  a.    Configure any one of the Groovy Actions configurations<br />
-                  b.    After execution end, go to Action “Output Values” tab and see all output values which were parsed in run time<br />
-                  c.    Now you can set Validations on top of those values or pass them to Variables/Data Source or other to be used in next Actions/other in the Ginger flow</span></p>
+             2.    Configure Ginger Groovy Plugin Action to Read Output Values<br />
+                     a.    Configure any one of the Groovy Actions configurations<br />
+                     b.    After execution end, go to Action “Output Values” tab and see all output values which were parsed in run time<br />
+                     c.    Now you can set Validations on top of those values or pass them to Variables/Data Source or other to be used in next Actions/other in the Ginger flow</span></p>
   <p>                    <img src="../../assets/images/image1226.png" /></p>
   <p> <br />
      </p>

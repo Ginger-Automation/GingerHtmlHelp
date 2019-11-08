@@ -14,74 +14,94 @@
   <p style="margin:0in 0in 0.0001pt"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:9.0pt"><span style="font-family:&quot;Century Gothic&quot;,sans-serif"></span></span></span></span></p>
   <p style="margin:0in 0in 0.0001pt"> </p>
   <h1>Export Business Flow to ALM</h1>
-  <p><span style="font-size:16px;">Ginger allows to export a Ginger Business Flow to ALM.<br />
+  <p><span style="font-size:17px;">Ginger allows to export a Ginger Business Flow to ALM.</span></p>
+  <p><span style="font-size:17px;">Pre-requisite:- ALM Connection Settings has be done. Refer the topic &quot;Connet Ginger to ALM (QC)&quot; </span></p>
+  <p><span style="font-size:17px;"><br />
       The export is been done in 2 parts:<br />
            1.    Export Activities Groups to ALM Test Cases- each one of the exported Business Flow Activities Groups will be exported to an ALM Test Case item in ALM Test Plan.<br />
           2.    Export Business Flow to ALM Test Set- an ALM<br />
-               a.    QC ALM Export - Test Set item will be created in QC ALM Test Lab into user selected folder.<br />
-               b.    RQM ALM export - Test Plan will be exported to RQM, there are no folders in RQM ALM.<br />
-          3.    all of the created ALM Test Cases from step 1 will be added to the Business Flow to represent the execution flow</span></p>
-  <p><span style="font-size:16px;">Steps to export Business Flow:<br />
-      1.    Launch the export process by:</span></p>
-  <p><span style="font-size:16px;">    a. Double click the Business Flow to go to automation area. Click on the “Export to ALM” button       </span></p>
-  <p><span style="font-size:16px;">          <img src="../../assets/images/image12.png" /><img src="../../assets/images/image9.png" /></span></p>
-  <p><span style="font-size:16px;">             </span></p>
-  <p><span style="font-size:16px;">    b.    Right click the Business Flows to export and select the “Export All to ALM” option. It will export all the Business Flows of the solution to ALM<br />
-               <img src="../../assets/images/image13.png" /><img src="../../assets/images/image10.png" /></span></p>
+                 a.    QC ALM Export - Test Set item will be created in QC ALM Test Lab into user selected folder.<br />
+                 b.    RQM ALM export - Test Plan will be exported to RQM, there are no folders in RQM ALM.<br />
+          3.    All of the created ALM Test Cases from step 1 will be added to the Business Flow to represent the execution flow</span></p>
+  <p><span style="font-size:17px;">Steps to export Business Flow:<br />
+      1.   There are 2 ways to do it. </span></p>
+  <p><span style="font-size:17px;"></span><span style="font-size:17px;">       a. Right click on the desired Business Flow. Click on the “Export ” -&gt; &quot;Export to ALM&quot;       </span></p>
+  <p><span style="font-size:16px;">          <img height="339" src="../../assets/images/image1722.png" width="362" /></span></p>
+  <p><span style="font-size:16px;">            </span><span style="font-size:16px;">             </span></p>
+  <p><span style="font-size:16px;"><span style="font-size:17px;">    b.    Double click on the Business Flow. Click on &#39;Extra Operations&#39; button. Select &quot;ALM Operations&quot;-&gt; “Export All to ALM” option. </span><br />
+               <img height="274" src="../../assets/images/image1723.png" width="950" /></span></p>
   <p><span style="font-size:16px;"></span></p>
-  <p><span style="font-size:16px;">    c.    Right click on the desired Business Flow in the Solution Tree and select “Export to ALM”</span></p>
-  <p><span style="font-size:16px;">         <img src="../../assets/images/image14.png" /><img src="../../assets/images/image11.png" /></span></p>
+  <p><span style="font-size:16px;">    c.   Only Activity Group can also be exported to ALM.  Click on the Group Operations button near the desired Activity Group.</span></p>
+  <p><span style="font-size:16px;">          Select &quot;ALM Operations&quot;-&gt;“Export Group”</span></p>
+  <p><span style="font-size:16px;">         <img height="376" src="../../assets/images/image1724.png" width="410" /></span></p>
   <p><span style="font-size:16px;"> <br />
-      2.    In case ALM connection details are missing or incorrect you will be asked to connect to ALM:<br />
+      2.    In case ALM connection details are missing or incorrect you will be asked to connect to ALM:</span></p>
+  <p><span style="font-size:16px;">       <img src="../../assets/images/image1725.png" /><br />
              <img src="../../assets/images/image12.png" /></span></p>
   <p><span style="font-size:16px;"><br />
-      3.    Exporting to RQM or QC ALM – Ginger will try to use the current saved configurations saved on step 3 and use them to export to selected </span></p>
-  <p><span style="font-size:16px;">     ALM type. <br />
-           Exporting to QC ALM - if QC ALM has been set in step 3, Ginger will use saved configurations and export to QC ALM:<br />
-           In case not all of the exported Business Flow Activities Groups were exported before to ALM:</span></p>
-  <p><span style="font-size:16px;"><br />
-               a. ALM Test Plan browser window will be shown and you will need to select to which ALM Test Plan folder the Activities Groups will be exported as ALM Test Cases<br />
-                   <img src="../../assets/images/image13.png" /></span></p>
-  <p><span style="font-size:16px;"><br />
-              b. Select a folder and click on “Select Folder” button<br />
-              c. All Activities Groups which were not exported before will be exported into the selected folder as ALM Test Cases<br />
-                     <img src="../../assets/images/image17.png" /><img src="../../assets/images/image14.png" /></span></p>
+      <span style="font-size:17px;">3.    Exporting to RQM or QC or JIRA ALM – Ginger will try to use the current saved configurations saved and use them to export to selected </span></span></p>
+  <p><span style="font-size:17px;">     ALM type.      </span></p>
+  <p><span style="font-size:16px;"><span style="font-size:17px;"><br />
+                 a. ALM Test Plan browser window will be shown and select the ALM Test Plan folder the Activities Groups where the export will be done.  Expand the Subject folder to see the existing list of folders. <span style="font-size:16px;"><span style="font-size:17px;">Select a folder and click on “Select Folder” button.</span></span></span><br />
+                   <img height="456" src="../../assets/images/image1726.png" width="459" /></span></p>
+  <p> </p>
+  <p>             Another window is displayed to select the folder in Test Lab of QC.      </p>
+  <p><span style="font-size:16px;">            <img height="378" src="../../assets/images/image1728.png" width="391" /></span></p>
+  <p> </p>
+  <p><span style="font-size:16px;">       <span style="font-size:17px;">    A message of successful export is displayed</span></span></p>
+  <p><span style="font-size:16px;">             <img src="../../assets/images/image1729.png" /></span></p>
+  <p><span style="font-size:16px;"></span><span style="font-size:16px;"><br />
+        <span style="font-size:17px;">     <br />
+                c. All Activities Groups which were not exported before will be exported into the selected folder as ALM Test Cases</span></span></p>
+  <p>           <span style="font-size:17px;">   Below is the Test Plan in QC.</span></p>
+  <p><span style="font-size:16px;"><span style="font-size:17px;">              <img height="461" src="../../assets/images/image1727.png" width="636" /></span></span></p>
+  <p> </p>
+  <p><span style="font-size:16px;"><span style="font-size:17px;">                Below is the Test Lab in QC</span></span></p>
+  <p><span style="font-size:16px;"><span style="font-size:17px;">                <img height="255" src="../../assets/images/image1731.png" width="641" /></span></span></p>
+  <p>               <img height="316" src="../../assets/images/image1732.png" width="454" /></p>
+  <p><span style="font-size:16px;"><span style="font-size:17px;"></span><br />
+                     </span></p>
   <p><span style="font-size:16px;"></span></p>
-  <p><span style="font-size:16px;">        d. For each Activities Group the details which will be exported are:<br />
-                   i.    Activities Group Name<br />
-                  ii.    For each Activity in the Activities Group an ALM Step item will be created containing the:<br />
-                      •    Activity Name<br />
-                      •    Activity Description<br />
-                      •    Activity list of Variables Names<br />
-                      •    Activity list of Actions Description<br />
-                      •    Activity Expected <br />
+  <p><span style="font-size:16px;">      <span style="font-size:17px;">  d. For each Activities Group the details which will be exported are:<br />
+                     i.    Activities Group Name<br />
+                    ii.    For each Activity in the Activities Group an ALM Step item will be created containing the:<br />
+                        •    Activity Name<br />
+                        •    Activity Description<br />
+                        •    Activity list of Variables Names<br />
+                        •    Activity list of Actions Description<br />
+                        •    Activity Expected </span><br />
                      <span style="font-family:&quot;Calibri&quot;,sans-serif"></span></span></p>
-  <p><span style="font-size:16px;"><span style="font-family:&quot;Calibri&quot;,sans-serif">            <span style="font-size:12.0pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><img height="266" src="../../assets/images/image15.png" width="942" /></span></span></span></span></span></span></span></span></p>
+  <p><span style="font-size:16px;"><span style="font-family:&quot;Calibri&quot;,sans-serif">                   <img height="305" src="../../assets/images/image1733.png" width="951" /><span style="font-size:12.0pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Calibri&quot;,sans-serif"></span></span></span></span></span></span></span></span></p>
+  <p><img height="372" src="../../assets/images/image1734.png" width="954" /></p>
+  <p><img height="312" src="../../assets/images/image1735.png" width="929" /></p>
+  <p> </p>
+  <p> </p>
   <p><span style="font-size:16px;"></span></p>
   <p><span style="font-size:16px;"></span></p>
-  <p><span style="font-size:16px;">4.    ALM Test Lab browser window will be shown for selecting the ALM Test Lab folder to export the Business Flow ALM Test Set into</span></p>
-  <p><span style="font-size:16px;">      a.    Select an ALM Test Lab folder<br />
-            b.    Click on “Select Folder” button<br />
-                 <img src="../../assets/images/image19.png" /><img src="../../assets/images/image16.png" /></span></p>
+  <p><span style="font-size:17px;">4.    ALM Test Lab browser window will be shown for selecting the ALM Test Lab folder to export the Business Flow ALM Test Set into</span></p>
+  <p><span style="font-size:16px;"><span style="font-size:17px;">      a.    Select an ALM Test Lab folder<br />
+              b.    Click on “Select Folder” button</span><br />
+                 <span style="font-size:16px;"></span></span></p>
+  <p>             <span style="font-size:16px;"><img height="378" src="../../assets/images/image1728.png" width="391" /></span></p>
   <p><span style="font-size:16px;"></span></p>
-  <p><span style="font-size:16px;">5.    The Business Flow will be exported to ALM- new Test Set will be created with the Business Name and all the matching Test Cases for the Business Flow Activities Groups will be added into it Execution Flow<br />
-                 <img src="../../assets/images/image20.png" /><img src="../../assets/images/image17.png" /></span></p>
-  <p><span style="font-size:16px;"> <br />
-      <span style="font-size:18px;">6.    In case running from Automate tab you will be asked to save the Business Flow for saving the links to the ALM items (Test Cases &amp; Test Set) <br />
+  <p><span style="font-size:16px;"></span></p>
+  <p><span style="font-size:16px;"><span style="font-size:17px;">5.    The Business Flow will be exported to ALM- new Test Set will be created with the Business Name and all the matching Test Cases for           the Business Flow Activities Groups will be added into it Execution Flow.</span><br />
+                 <img height="259" src="../../assets/images/image1736.png" width="626" /></span></p>
+  <p><span style="font-size:16px;"> <span style="font-size:18px;"><br />
         7.    Exporting to RQM ALM: if RQM ALM has been set in step 3, Ginger will use saved configurations and export to RQM ALM:<br />
         8.    RQM ALM export is similar to QC ALM export, the only difference is that in RQM there are no folders and when exporting from Ginger to RQM there will be no option to select where to export to.</span></span></p>
   <p><span style="font-size:18px;">        <strong>Note: </strong>if the Test Plan already exist in RQM ALM, exporting it again will update the existing Test Plan and wont create another instance.</span></p>
   <p><span style="font-size:16px;"><span style="font-size:18px;">          Browsing RQM Test Plans:</span><br />
-                <img src="../../assets/images/image23.png" /><img src="../../assets/images/image18.png" /></span></p>
+                <span style="font-size:16px;"></span><img src="../../assets/images/image18.png" /></span></p>
   <p><span style="font-size:16px;"><br />
          <span style="font-size:18px;">      <strong>Note: </strong><br />
                    •    Each business must have at least  one Activity Group<br />
                    •    It is possible to Export the Business Flow Activities Groups separately by:<br />
-                          a.    Clicking on the Export icon which placed on the “Activities Groups” page after selecting all the Activities Group to export<br />
-                                 <img src="../../assets/images/image24.png" /><img src="../../assets/images/image19.png" /></span></span></p>
+                          a.    Right click on the “Activity Group” and select &#39;ALM Operations&#39;-&gt; &#39;Export Group&#39; option<br />
+                                 <img height="358" src="../../assets/images/image1737.png" width="373" /></span></span></p>
   <p><span style="font-size:18px;"><br />
                         b.    Right click on Shared Activities Group item in the Solution tree and select “Export to ALM”. For exporting group of Activities Groups you can right click on a folder of Activities Groups and select “Export All to ALM”</span></p>
-  <p><span style="font-size:16px;">                         <img src="../../assets/images/image25.png" /><img src="../../assets/images/image20.png" /><br />
+  <p><span style="font-size:16px;">                         <img src="../../assets/images/image20.png" /><br />
                                      </span></p>
 </body>
 </html>

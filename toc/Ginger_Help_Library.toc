@@ -16,6 +16,7 @@
     <page href="../contents/Tabs/Menu_Items.htm"></page>
   </book>
   <book navtitle="Solution">
+    <page href="../contents/Solution/Create_New_Solution.htm"></page>
     <book navtitle="Business_Flow">
       <page href="../contents/Solution/Business_Flow/What_is_a_Business_Flow_.htm"></page>
       <page href="../contents/Solution/Business_Flow/What_is_Activities_Groups_.htm"></page>
@@ -28,10 +29,12 @@
           <page href="../contents/Solution/Business_Flow/Actions/Action_Generic_Configurations/Action_Output_Simulation.htm"></page>
           <page href="../contents/Solution/Business_Flow/Actions/Action_Generic_Configurations/Action_Output_Values.htm"></page>
           <page href="../contents/Solution/Business_Flow/Actions/Action_Generic_Configurations/Action_Retry_Mechanism.htm"></page>
+          <page href="../contents/Solution/Business_Flow/Actions/Action_Generic_Configurations/How_to_use_Locate_by-Locate_Value_in_Action.htm"></page>
         </book>
         <book navtitle="Automatic_Action_Convertor">
           <page href="../contents/Solution/Business_Flow/Actions/Automatic_Action_Convertor/Automatic_Action_Convertor.htm"></page>
-          <page href="../contents/Solution/Business_Flow/Actions/Automatic_Action_Convertor/How_to_use_the_Actions_Convertor_.htm"></page>
+          <page href="../contents/Solution/Business_Flow/Actions/Automatic_Action_Convertor/How_to_clean_inactive_Legacy_Actions_.htm"></page>
+          <page href="../contents/Solution/Business_Flow/Actions/Automatic_Action_Convertor/How_to_use_the_Actions_Converter_.htm"></page>
         </book>
         <book navtitle="General_Actions">
           <book navtitle="Database_Action">
@@ -51,19 +54,15 @@
           <page href="../contents/Solution/Business_Flow/Actions/General_Actions/Image_Search_and_Click_on_screen.htm"></page>
           <page href="../contents/Solution/Business_Flow/Actions/General_Actions/Java_Execution_Action_User_Guide.htm"></page>
           <page href="../contents/Solution/Business_Flow/Actions/General_Actions/Launch_Java_Application_Action.htm"></page>
-          <page href="../contents/Solution/Business_Flow/Actions/General_Actions/Launch_Java_EJB_Action.htm"></page>
           <page href="../contents/Solution/Business_Flow/Actions/General_Actions/Script_Action.htm"></page>
           <page href="../contents/Solution/Business_Flow/Actions/General_Actions/Send_Keys_Action.htm"></page>
           <page href="../contents/Solution/Business_Flow/Actions/General_Actions/Set_Variable_Action.htm"></page>
           <page href="../contents/Solution/Business_Flow/Actions/General_Actions/Text_File_Operations.htm"></page>
-          <page href="../contents/Solution/Business_Flow/Actions/General_Actions/WebAPI_REST_Action.htm"></page>
           <page href="../contents/Solution/Business_Flow/Actions/General_Actions/XML_JASON_Tag_Validation_Action.htm"></page>
         </book>
         <book navtitle="Platform_Action_Types">
           <page href="../contents/Solution/Business_Flow/Actions/Platform_Action_Types/Browser_Action.htm"></page>
           <page href="../contents/Solution/Business_Flow/Actions/Platform_Action_Types/Get_Details_from_MainFrame_Action.htm"></page>
-          <page href="../contents/Solution/Business_Flow/Actions/Platform_Action_Types/Java_Element_Action.htm"></page>
-          <page href="../contents/Solution/Business_Flow/Actions/Platform_Action_Types/Java_Execution_Action_User_Guide.htm"></page>
           <page href="../contents/Solution/Business_Flow/Actions/Platform_Action_Types/Screenshot_Action.htm"></page>
           <page href="../contents/Solution/Business_Flow/Actions/Platform_Action_Types/Send_Key_to_Main_Frame.htm"></page>
           <page href="../contents/Solution/Business_Flow/Actions/Platform_Action_Types/Set_Text_Main_Frame.htm"></page>
@@ -99,6 +98,7 @@
         <book navtitle="Agent_Types">
           <book navtitle="Mobile_Agent">
             <page href="../contents/Solution/Configurations/Agents/Agent_Types/Mobile_Agent/Mobile_Agent.htm"></page>
+            <page href="../contents/Solution/Configurations/Agents/Agent_Types/Mobile_Agent/Perfecto_User_guide.htm"></page>
             <book navtitle="Android_Testing_Setup">
               <page href="../contents/Solution/Configurations/Agents/Agent_Types/Mobile_Agent/Android_Testing_Setup/Android_Testing_Device_setup.htm"></page>
               <page href="../contents/Solution/Configurations/Agents/Agent_Types/Mobile_Agent/Android_Testing_Setup/Android_Testing_Setup.htm"></page>
@@ -115,15 +115,14 @@
               <page href="../contents/Solution/Configurations/Agents/Agent_Types/Mobile_Agent/Mobile_iOS_Testing_Setup/Mobile_iOS_Testing_Device_Setup.htm"></page>
               <page href="../contents/Solution/Configurations/Agents/Agent_Types/Mobile_Agent/Mobile_iOS_Testing_Setup/Native_Hybrid_App_Testing_on_Real_Device_Setup.htm"></page>
             </book>
-            <page href="../contents/Solution/Configurations/Agents/Agent_Types/Mobile_Agent/Perfecto_User_guide.htm"></page>
           </book>
           <book navtitle="Web_Agent">
+            <page href="../contents/Solution/Configurations/Agents/Agent_Types/Web_Agent/Web_Agent.htm"></page>
             <page href="../contents/Solution/Configurations/Agents/Agent_Types/Web_Agent/How_to_enable_Device_Emulation_in_Browser_.htm"></page>
             <page href="../contents/Solution/Configurations/Agents/Agent_Types/Web_Agent/Internet_Explorer_Pre-Settings_for_Application.htm"></page>
             <page href="../contents/Solution/Configurations/Agents/Agent_Types/Web_Agent/Remote_Web_Driver.htm"></page>
             <page href="../contents/Solution/Configurations/Agents/Agent_Types/Web_Agent/Run_Agent_in_Minimized_mode.htm"></page>
             <page href="../contents/Solution/Configurations/Agents/Agent_Types/Web_Agent/Run_Web_Agent_in_Hidden_mode.htm"></page>
-            <page href="../contents/Solution/Configurations/Agents/Agent_Types/Web_Agent/Web_Agent.htm"></page>
           </book>
           <page href="../contents/Solution/Configurations/Agents/Agent_Types/Agent_Configuration.htm"></page>
           <page href="../contents/Solution/Configurations/Agents/Agent_Types/Andriod_Agent.htm"></page>
@@ -133,7 +132,6 @@
           <page href="../contents/Solution/Configurations/Agents/Agent_Types/Main_Frame_Agent.htm"></page>
           <page href="../contents/Solution/Configurations/Agents/Agent_Types/Power_Builder_Agent.htm"></page>
           <page href="../contents/Solution/Configurations/Agents/Agent_Types/Unix_Agent.htm"></page>
-          <page href="../contents/Solution/Configurations/Agents/Agent_Types/VB_Script_Agent.htm"></page>
           <page href="../contents/Solution/Configurations/Agents/Agent_Types/WebServices_Agent.htm"></page>
           <page href="../contents/Solution/Configurations/Agents/Agent_Types/Windows_Agent.htm"></page>
         </book>
@@ -142,9 +140,9 @@
         <page href="../contents/Solution/Configurations/Environment/Environment.htm"></page>
       </book>
       <book navtitle="Reports">
+        <page href="../contents/Solution/Configurations/Reports/How_to_Generate_HTML_Report.htm"></page>
         <page href="../contents/Solution/Configurations/Reports/Ginger_Execution_Logger.htm"></page>
         <page href="../contents/Solution/Configurations/Reports/HTML_Drill_Down_Report.htm"></page>
-        <page href="../contents/Solution/Configurations/Reports/How_to_Generate_HTML_Report.htm"></page>
       </book>
       <book navtitle="Target_Applications">
         <page href="../contents/Solution/Configurations/Target_Applications/Target_Application.htm"></page>
@@ -155,9 +153,9 @@
           <page href="../contents/Solution/Configurations/Value_Expression/Value_Expression_Types_Overview/How_to_add_Current_windows_username_in_Value_Expression_.htm"></page>
           <page href="../contents/Solution/Configurations/Value_Expression/Value_Expression_Types_Overview/How_to_use_Activity_Variables_in_Value_Expression_.htm"></page>
           <page href="../contents/Solution/Configurations/Value_Expression/Value_Expression_Types_Overview/How_to_use_Business_Flow_Variables_in_Value_Expression_.htm"></page>
+          <page href="../contents/Solution/Configurations/Value_Expression/Value_Expression_Types_Overview/How_to_use_Environments_in_Value_Expression_.htm"></page>
           <page href="../contents/Solution/Configurations/Value_Expression/Value_Expression_Types_Overview/How_to_use_Data_Source_in_Value_Expression_.htm"></page>
           <page href="../contents/Solution/Configurations/Value_Expression/Value_Expression_Types_Overview/How_to_use_Date_&amp;_Time_functions_in_Value_EXpression_.htm"></page>
-          <page href="../contents/Solution/Configurations/Value_Expression/Value_Expression_Types_Overview/How_to_use_Environments_in_Value_Expression_.htm"></page>
           <page href="../contents/Solution/Configurations/Value_Expression/Value_Expression_Types_Overview/How_to_use_General_Functions_in_Value_Expression_.htm"></page>
           <page href="../contents/Solution/Configurations/Value_Expression/Value_Expression_Types_Overview/How_to_use_Global_Variables_in_Value_Expression.htm"></page>
           <page href="../contents/Solution/Configurations/Value_Expression/Value_Expression_Types_Overview/How_to_use_Math_in_Value_expression_.htm"></page>
@@ -168,22 +166,21 @@
         </book>
       </book>
     </book>
-    <page href="../contents/Solution/Create_New_Solution.htm"></page>
   </book>
   <book navtitle="Run_Set">
     <book navtitle="Runset_Creation">
+      <page href="../contents/Run_Set/Runset_Creation/How_to_Create_a_Run_Set_.htm"></page>
+      <page href="../contents/Run_Set/Runset_Creation/What_is_a_Runner_.htm"></page>
       <page href="../contents/Run_Set/Runset_Creation/How_to_add_Business_Flow_in_a_Runner_.htm"></page>
       <page href="../contents/Run_Set/Runset_Creation/How_to_Copy-Paste_Runset_.htm"></page>
-      <page href="../contents/Run_Set/Runset_Creation/How_to_Create_a_Run_Set_.htm"></page>
       <page href="../contents/Run_Set/Runset_Creation/How_to_create_a_Runset_Folder_.htm"></page>
       <page href="../contents/Run_Set/Runset_Creation/How_to_switch_to_another_Runset_.htm"></page>
-      <page href="../contents/Run_Set/Runset_Creation/What_is_a_Runner_.htm"></page>
     </book>
     <book navtitle="Runset_Execution">
-      <page href="../contents/Run_Set/Runset_Execution/How_to_Continue_a_Stopped_Runset_.htm"></page>
-      <page href="../contents/Run_Set/Runset_Execution/How_to_reset_the_Runset_(All_Runners)_.htm"></page>
       <page href="../contents/Run_Set/Runset_Execution/How_to_run_a_Runset_(All_Runners)_.htm"></page>
       <page href="../contents/Run_Set/Runset_Execution/How_to_Stop_the_Runset_Execution_.htm"></page>
+      <page href="../contents/Run_Set/Runset_Execution/How_to_Continue_a_Stopped_Runset_.htm"></page>
+      <page href="../contents/Run_Set/Runset_Execution/How_to_reset_the_Runset_(All_Runners)_.htm"></page>
     </book>
     <book navtitle="Business_Flow_Execution">
       <page href="../contents/Run_Set/Business_Flow_Execution/How_to_make_a_Business_Flow_Active_Inactive_.htm"></page>
@@ -201,9 +198,9 @@
       <page href="../contents/Run_Set/Run_Set_Configuration/How_to_Sync_Unsync_Runners_.htm"></page>
     </book>
     <book navtitle="Runner_Execution">
-      <page href="../contents/Run_Set/Runner_Execution/How_to_Continue_the_execution_of_a_Runner_.htm"></page>
       <page href="../contents/Run_Set/Runner_Execution/How_to_Reset_&amp;_Run_a_Runner_.htm"></page>
       <page href="../contents/Run_Set/Runner_Execution/How_to_Stop_a_Runner_.htm"></page>
+      <page href="../contents/Run_Set/Runner_Execution/How_to_Continue_the_execution_of_a_Runner_.htm"></page>
     </book>
     <page href="../contents/Run_Set/How_to_Create_Run_Set_Report.htm"></page>
     <page href="../contents/Run_Set/How_to_create_Run_Set_s_Auto_Run_.htm"></page>
@@ -239,8 +236,8 @@
       <page href="../contents/Resources/Data_Source/Data_Source_&amp;_Table_Manipulation_Options.htm"></page>
       <page href="../contents/Resources/Data_Source/Types_of_Data_Source_Tables.htm"></page>
       <page href="../contents/Resources/Data_Source/Data_Source_Config_Page.htm"></page>
-      <page href="../contents/Resources/Data_Source/Export__Import_to_Excel.htm"></page>
       <page href="../contents/Resources/Data_Source/Data_Source_Action.htm"></page>
+      <page href="../contents/Resources/Data_Source/Export__Import_to_Excel.htm"></page>
     </book>
     <book navtitle="Shared_Repository">
       <page href="../contents/Resources/Shared_Repository/What_is_Shared_Repository_.htm"></page>
@@ -255,18 +252,18 @@
     </book>
     <page href="../contents/Resources/Documents.htm"></page>
     <book navtitle="Plugins">
-      <page href="../contents/Plugins/What_are_Ginger_Plugins_.htm"></page>
+      <page href="../contents/Plugins/What_is_Ginger_Plugins_.htm"></page>
       <book navtitle="Groovy_Plugin">
         <page href="../contents/Plugins/Groovy_Plugin/How_to_Install_Groovy_Plugin_.htm"></page>
         <page href="../contents/Plugins/Groovy_Plugin/How_to_Execute_&amp;_get_Output_Values_from_Groovy_Script__.htm"></page>
       </book>
       <book navtitle="PACT_Plugin">
         <page href="../contents/Plugins/PACT_Plugin/How_to_load_PACT_Plugin_.htm"></page>
-        <page href="../contents/Plugins/PACT_Plugin/How_to_use_PACT_in_Actions_.htm"></page>
-        <page href="../contents/Plugins/PACT_Plugin/How_to_Compile_PACT_Document_.htm"></page>
         <page href="../contents/Plugins/PACT_Plugin/How_to_Create_Or_Import_PACT_Document_.htm"></page>
+        <page href="../contents/Plugins/PACT_Plugin/How_to_Compile_PACT_Document_.htm"></page>
         <page href="../contents/Plugins/PACT_Plugin/How_to_Edit_PACT_Document_.htm"></page>
         <page href="../contents/Plugins/PACT_Plugin/How_to_Export_to_Java_Or_Jason_File_.htm"></page>
+        <page href="../contents/Plugins/PACT_Plugin/How_to_use_PACT_in_Actions_.htm"></page>
       </book>
       <book navtitle="Python_Plugin">
         <page href="../contents/Plugins/Python_Plugin/How_to_Install_Python_Plugin_.htm"></page>
@@ -274,11 +271,11 @@
       </book>
       <book navtitle="TestNG_Plugin">
         <page href="../contents/Plugins/TestNG_Plugin/How_to_Install_TestNG_Plugin_.htm"></page>
-        <page href="../contents/Plugins/TestNG_Plugin/How_to_Execute_TestNG_Flow_using_TestNG_XML_.htm"></page>
         <page href="../contents/Plugins/TestNG_Plugin/How_to_Execute_TestNG_Flow_using_Free_Command_.htm"></page>
-        <page href="../contents/Plugins/TestNG_Plugin/How_to_sending_Input_Values_to_TestNG_Flow_from_Ginger_Flow_.htm"></page>
+        <page href="../contents/Plugins/TestNG_Plugin/How_to_Execute_TestNG_Flow_using_TestNG_XML_.htm"></page>
         <page href="../contents/Plugins/TestNG_Plugin/How_to_get_Output_Values_from_TestNG_Flow_to_Ginger_Flow_.htm"></page>
         <page href="../contents/Plugins/TestNG_Plugin/How_to_Parse_TestNG_Flow_Execution_Results_.htm"></page>
+        <page href="../contents/Plugins/TestNG_Plugin/How_to_sending_Input_Values_to_TestNG_Flow_from_Ginger_Flow_.htm"></page>
       </book>
     </book>
   </book>
@@ -286,7 +283,6 @@
     <page href="../contents/Functionalities_&amp;_Tools/Analyzer.htm"></page>
     <page href="../contents/Functionalities_&amp;_Tools/AutoSave_and_Recover.htm"></page>
     <page href="../contents/Functionalities_&amp;_Tools/Find_and_Replace.htm"></page>
-    <page href="../contents/Functionalities_&amp;_Tools/Windows_Automation_Run_Book.htm"></page>
   </book>
   <book navtitle="Source_Control">
     <page href="../contents/Source_Control/What_are_different_types_of_Repository_.htm"></page>
@@ -299,15 +295,14 @@
     <page href="../contents/Source_Control/What_are_the_different_color_indicate_while_using_the_Repository_.htm"></page>
     <page href="../contents/Source_Control/How_to_use_GIT_repository_.htm"></page>
   </book>
-  <book navtitle="Integrations">
+  <book navtitle="Integration">
     <book navtitle="ALM_Integration_(QC_RQM_JIRA)">
-      <page navtitle="Integrations" href="../contents/Integration/ALM_Integration_(QC_RQM_JIRA)/Integrations.htm"></page>
+      <page href="../contents/Integration/ALM_Integration_(QC_RQM_JIRA)/Integrations.htm"></page>
       <page href="../contents/Integration/ALM_Integration_(QC_RQM_JIRA)/Connect Ginger_to_ALM.htm"></page>
       <page href="../contents/Integration/ALM_Integration_(QC_RQM_JIRA)/Import_ALM_Test_Set_to_Ginger1.htm"></page>
       <page href="../contents/Integration/ALM_Integration_(QC_RQM_JIRA)/Configure_ALM_Items_Fields1.htm"></page>
       <page href="../contents/Integration/ALM_Integration_(QC_RQM_JIRA)/Export_Business_Flow_to_ALM1.htm"></page>
       <page href="../contents/Integration/ALM_Integration_(QC_RQM_JIRA)/Export_Execution_Results_to_ALM.htm"></page>
-      <page href="../contents/Integration/ALM_Integration_(QC_RQM_JIRA)/ALM_Manager_Report.htm"></page>
       <page href="../contents/Integration/ALM_Integration_(QC_RQM_JIRA)/Automate_ALM_TC_&amp;_Add_it_to_Ginger_Repository1.htm"></page>
       <page href="../contents/Integration/ALM_Integration_(QC_RQM_JIRA)/Automate_opening_of_ALM_defects_in_Ginger_(available_only_for_ALM_12.htm"></page>
     </book>

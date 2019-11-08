@@ -11,34 +11,44 @@
 <body>
   <p align="center" class="MsoTitle" style="text-align:center; margin:0in 0in 0.0001pt"><span style="font-size:20pt"><span style="font-family:Calibri,sans-serif"><span style="color:#0f243e"><span style="letter-spacing:-0.5pt"><span style="font-weight:bold"><span style="font-size:16.0pt"><span style="font-family:&quot;Century Gothic&quot;,sans-serif"></span></span></span></span></span></span></span></p>
   <h1>Export Execution Results to ALM</h1>
-  <p><span style="font-size:16px;">In case the executed Ginger Business Flow was originally imported from ALM Test Set or in case it was exported to ALM Test Set then the user is able to export the execution results to ALM.</span></p>
-  <p> </p>
-  <p><span style="font-size:16px;">Steps for exporting execution results to ALM:<br />
+  <p><span style="font-size:17px;">In case the executed Ginger Business Flow was originally imported from ALM Test Set or in case it was exported to ALM Test Set then the user is able to export the execution results to ALM.</span></p>
+  <p><span style="font-size:17px;">Steps for exporting execution results to ALM:<br />
           a)    From Automate Tab:<br />
-                    1.    Load the relevant Ginger Business Flow into Automate tab<br />
-                    2.    Run the Ginger Test Set in “Run Flow” mode  <br />
-                    3.    Once execution is done the user will get the “Test Set Execution Summary” window with summary of the execution results, for exporting the results to ALM user can click on “Export Execution Details” <br />
-                           Note: Ginger will use saved ALM Configurations saved on step 3 to decide to which ALM to export to.<br />
-                           <img src="../../assets/images/image28.png" /><img src="../../assets/images/image21.png" /></span></p>
+                    1.    Double click on the relevant Business Flow under Business Flows tab.</span></p>
+  <p><span style="font-size:16px;">                     <img height="228" src="../../assets/images/image1744.png" width="379" /></span></p>
+  <p><span style="font-size:16px;"><br />
+               <span style="font-size:17px;">     2.    Run the Ginger Test Set in “Run Flow” mode  using the button as shown below.</span></span></p>
+  <p><span style="font-size:16px;">                      <img height="234" src="../../assets/images/image1743.png" width="659" /></span></p>
+  <p><span style="font-size:16px;"><br style="font-size: 17px" />
+      <span style="font-size:17px;">              3.    Once execution is done the user will get the “Test Set Execution Summary” window with summary of the execution results, for exporting the results to </span>ALM<span style="font-size:17px;"> user can click on “Export Execution Details” </span><br style="font-size: 17px" />
+      <span style="font-size:17px;">                     Note: Ginger will use saved </span>ALM<span style="font-size:17px;"> Configurations to decide to which ALM to export. (Refer topic &quot;Connect Ginger to ALM(QC/RQM/JIRA)&quot;</span>           </span></p>
+  <p><span style="font-size:16px;">                               <img height="406" src="../../assets/images/image1745.png" width="412" /></span></p>
+  <p>                    </p>
+  <p>                    <span style="font-size:16px;"></span></p>
+  <p><span style="font-size:16px;">    <span style="font-size:17px;">     b)   From Run Tab:<br />
+                         1.    Go to Run tab<br />
+                         2.    Add Business Flow to the Run set</span></span></p>
+  <p>                         <img height="511" src="../../assets/images/image1746.png" width="416" /></p>
+  <p><span style="font-size:16px;"><span style="font-size:17px;">                         <br />
+                         3.    Click on the Details tab of the Run set. <span style="font-size:16px;"><span style="font-size:17px;">Add new “Add Publish to ALM” Run set Action and save the Run set.</span></span> </span></span></p>
+  <p><span style="font-size:16px;"><span style="font-size:17px;">                       <img height="496" src="../../assets/images/image1747.png" width="470" /></span></span></p>
+  <p><span style="font-size:16px;"><span style="font-size:17px;"><br />
+                         4.    Execute the Run set by clicking on the “Run”  button.</span></span></p>
+  <p><span style="font-size:16px;"><span style="font-size:17px;">                        <img height="239" src="../../assets/images/image1748.png" width="784" /></span></span></p>
+  <p><span style="font-size:16px;"><span style="font-size:17px;"><br />
+                         7.    Execution details will be exported to ALM according to Run Set configurations.</span><br />
+                                    <img height="428" src="../../assets/images/image1749.png" width="376" /></span></p>
+  <p>                      </p>
   <p> </p>
-  <p><span style="font-size:16px;">         b)   From Run Tab:<br />
-                       1.    Open Run tab<br />
-                       2.    Add Ginger Set and drag &amp; drop Ginger Business Flows to it<br />
-                       3.    Click on Run Set Configurations button <br />
-                       4.    Add new “Add Publish to ALM” Run set Action<br />
-                       5.    Configure to Action<br />
-                       6.    Run the Ginger Set by clicking on “Run All Ginger”  button<br />
-                       7.    Execution details will be exported to ALM according to Run Set configurations.<br />
-         </span></p>
-  <p>                      <img src="../../assets/images/image22.png" /></p>
-  <p> </p>
-  <p>                      <img src="../../assets/images/image23.png" />   </p>
+  <p>                            <img height="205" src="../../assets/images/image23.png" width="671" />   </p>
   <p><span style="font-size:16px;"></span></p>
   <p><span style="font-size:16px;"><strong> Note:</strong><br />
-            •    Each Ginger Activity execution status will be exported as the matching ALM TC Step Run Status<br />
+            •    Each Ginger Activity execution status will be exported as the matching ALM TC Step Run Status</span></p>
+  <p><span style="font-size:16px;"><br />
             •    According to selected “Run At” configuration:<br />
                  “During Execution” – will export a business flow execution results to ALM after each business flow run.<br />
-                 “Execution End” – will export all businesses flows execution results only after all business flows finished in that “Ginger” run.<br />
-           •    The ALM TC Run status will be set based on calculation of all of the matching Ginger Test Case Steps execution status: if all Ginger Steps </span><span style="font-size:16px;">                      Passed then the TC status will be “Passed”, if one failed then the TC status will be “Failed”, if partial passed and rest didn’t executed then the status will be set to “Not Completed” otherwise it will be set to “No Run”</span></p>
+                 “Execution End” – will export all businesses flows execution results only after all business flows finished in that “Ginger” run.</span></p>
+  <p><span style="font-size:16px;"><br />
+           •    The ALM TC Run status will be set based on calculation of all of the matching Ginger Test Case Steps execution status:-                                                I</span><span style="font-size:16px;">f all Ginger Steps </span><span style="font-size:16px;"> Passed then the TC status will be “Passed”.                                                                                                                                            If one failed then the TC status will be “Failed”.                                                                                                                                                                  If partial passed and rest didn’t executed then the status will be set to “Not Completed” otherwise it will be set to “No Run”.</span></p>
 </body>
 </html>

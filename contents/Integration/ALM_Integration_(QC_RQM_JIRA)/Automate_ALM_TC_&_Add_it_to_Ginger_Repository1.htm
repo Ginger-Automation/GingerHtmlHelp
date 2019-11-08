@@ -15,24 +15,27 @@
   <p style="margin:0in 0in 0.0001pt"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:9.0pt"><span style="font-family:&quot;Century Gothic&quot;,sans-serif"></span></span></span></span></p>
   <p style="margin:0in 0in 0.0001pt"> </p>
   <h1>Automate ALM Test Case &amp; Add it to Ginger Repository</h1>
-  <p><span style="font-size:16px;">Once user has imported ALM Test (to a Business Flow) or exported Ginger Business Flow to ALM he can automate the Ginger Activities Groups which it contains and add them to the Ginger Solution repository so they will be reused the next time those ALM TC’s will be used in other Tests that will be imported to Ginger.</span></p>
-  <p><span style="font-size:16px;">For automating an ALM TC &amp; add it to the Ginger repository please follow below steps:</span></p>
-  <p><span style="font-size:16px;">    1.    Import ALM Test Set into Ginger <br />
-          2.    Double click the Ginger Test Set which was created for the ALM Test Set in order to shift to Ginger “Automate” tab<br />
-          3.    Record or manually add the automation Actions for the relevant ALM TC Steps matching Ginger Steps<br />
-          4.    Test and make sure the Ginger Steps been executed as expected<br />
-          5.    Mark the “Automation Status” of the automated Ginger Steps to “Automated” in the Ginger Step edit window or from the Ginger Steps grid<br />
-                  <img src="../../assets/images/image.png" /></span></p>
+  <p><span style="font-size:17px;">Once user has imported ALM Test (to a Business Flow) Or exported Ginger Business Flow to ALM,  he can automate the Ginger Activities Groups which it contains. User can add them to the Ginger Solution repository so they will be reused the next time those ALM TC’s will be used in other Tests that will be imported to Ginger.</span></p>
+  <p><span style="font-size:17px;">For automating an ALM TC &amp; add it to the Ginger repository please follow below steps:</span></p>
+  <p><span style="font-size:16px;"><span style="font-size:17px;">    1.    Import ALM Test Set into Ginger <br />
+            2.    Double click on the imported Business Flow<br />
+            3.    Manually add the automation Actions<br />
+            4.    Test and make sure the Ginger Steps been executed as expected<br />
+            5.    Select the Activity. Go to Details tab. Mark the “Automation Status” from Development to “Automated” .</span></span></p>
+  <p><span style="font-size:16px;"><span style="font-size:17px;">           <span style="font-size:17px;">Perform this step one by one on each Activity.</span></span><br />
+                  <img height="497" src="../../assets/images/image1738.png" width="744" /></span></p>
+  <p><span style="font-size:17px;">           </span></p>
+  <p><span style="font-size:17px;">    6.  Go Back to the Business Flows tree view.  Select the Details tab. The Automation % is displayed.</span></p>
+  <p><span style="font-size:16px;">            <img height="501" src="../../assets/images/image1739.png" width="542" /></span></p>
   <p><span style="font-size:16px;"><br />
-          6.    Add the ALM TC matching Ginger Test Case and all of it Ginger Steps to the Solution Shared Repository by:<br />
-                a.    Opening the “Test Cases Manager” window by clicking on it icon  in the Ginger Steps grid tool bar<br />
-                b.    Selecting the Ginger Test Case which match to the ALM TC from the Groups list<br />
-                c.    Click on the “Add to Repository” icon   in the groups grid tool bar<br />
-                d.    The Ginger Test Case and all of it Ginger Steps supposed to be added to the Ginger Solution Shared Repository</span></p>
-  <p> </p>
-  <p><span style="font-size:16px;">  <strong> Note:</strong> In case the Ginger Test Case or one of its Ginger Steps already exist in the Repository the user will be asked if he wants to overwrite                </span><span style="font-size:16px;">              the existing one.</span></p>
-  <p><span style="font-size:16px;">            <img src="../../assets/images/image27.png" /><img src="../../assets/images/image1.png" /></span></p>
-  <p><span style="font-size:16px;">  <strong>Note:</strong> For reflecting the automated TC’s in the Design Console (ATS) application the user will need to Check In the automated items (Ginger Test </span></p>
-  <p><span style="font-size:16px;">             Cases &amp; Ginger Steps) to the Solution Source Control (SVN).</span></p>
+      <span style="font-size:17px;">    7.    Add the Activity Groups of this Business Flow  to the Solution Shared Repository by:-<br />
+                  a.    Click on the &#39;Group Operations&#39; button (...). Select the &#39;Add Group to Shared Repository&#39; option.</span></span></p>
+  <p><span style="font-size:16px;"><span style="font-size:17px;">                <img height="453" src="../../assets/images/image1740.png" width="415" /></span></span></p>
+  <p><span style="font-size:16px;"><span style="font-size:17px;"><br />
+                  b.    It can also be done by double clicking the Business Flow.  <span style="font-size:16px;"><span style="font-size:17px;">Click on the &#39;Group Operations&#39; button (...) of the Activity Group.                           Select the &#39;Add Group to Shared Repository&#39; option.</span></span></span></span></p>
+  <p><span style="font-size:16px;"><span style="font-size:17px;">                 <img height="404" src="../../assets/images/image1741.png" width="321" /></span></span></p>
+  <p>           <span style="font-size:17px;">  <strong> Note:</strong> In case the Activity Group (Test Cases in QC) already exist in the Repository, the user will be asked if he wants to overwrite                              the existing one.</span></p>
+  <p><span style="font-size:16px;">            <img height="362" src="../../assets/images/image1742.png" width="799" /></span></p>
+  <p><span style="font-size:17px;">  <strong>Note:</strong> For reflecting the automated TC’s in the Design Console (ATS) application the user will need to Check In the automated items                        (Ginger Test</span><span style="font-size:17px;">  Cases &amp; Ginger Steps) to the Solution Source Control (SVN).</span></p>
 </body>
 </html>

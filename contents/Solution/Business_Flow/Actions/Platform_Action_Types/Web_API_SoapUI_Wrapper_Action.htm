@@ -4,12 +4,12 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="generator" content="Adobe RoboHelp 2019" />
-  <title>Web API Action- SoapUI Wrapper &amp; Rest</title>
+  <title>SoapUI Wrapper Action</title>
   <meta name="topic-status" content="Draft" />
   <link rel="stylesheet" type="text/css" href="../../../../assets/css/default.css" />
 </head>
 <body>
-  <h1>Web API SoapUI Wrapper Action</h1>
+  <h1>SoapUI Wrapper Action</h1>
   <p><span style="font-size:17px;"><strong>1. Introduction</strong><br />
            Web API SOAP &amp; Web API REST Actions support the following features:<br />
            • Security – ability to use certificates provided by user<br />
@@ -17,7 +17,8 @@
   <p><span style="font-size:17px;"><strong>2. Agent Configuration </strong><br />
            2.1. Create new agent and select platform and driver as WebService.<br />
                   Go to Configurations-&gt; Agents and click on the + button.<br />
-                  <img src="../../../../assets/images/image607.png" /><br />
+                  <img src="../../../../assets/images/image607.png" /></span></p>
+  <p><span style="font-size:17px;"><br />
                 In the Agent Wizard, enter the Name and select ‘WebServices’ in the Platform type.<br />
                     <img src="../../../../assets/images/image608.png" /></span></p>
   <p><span style="font-size:17px;">    <br />
@@ -38,46 +39,46 @@
               •    String for validation is required to verify the output if needed.</span><span style="font-size:17px;">             </span></p>
   <p><span style="font-size:17px;"><br />
           3.2 Action Operation<br />
-              1)    Double click on the Business flow. In the Activity Actions, click on ‘Add New’ button<br />
-                     <img src="../../../../assets/images/image612.png" /></span></p>
-  <p><span style="font-size:17px;">        2)    In the ‘Platform Actions’ tab, select the ‘SoapUI Wrapper Action’ then click on ‘Add Action’ button given in the below window.<br />
-                     <img src="../../../../assets/images/image613.png" /></span></p>
+              1) </span><span style="font-size:17px;"><span style="font-size:17px;"><span style="font-size:17px;">Double click on the Business flow under Buisness Flow tab.  Click on ‘Add New’ button and click on Actions Library. </span></span></span></p>
+  <p><span style="font-size:17px;">                                <span style="font-size:17px;"><span style="font-size:17px;"><img height="281" src="../../../../assets/images/image1784.png" width="197" /></span></span></span></p>
+  <p><span style="font-size:17px;"> </span><span style="font-size:17px;"><br />
+                 <span style="font-size:17px;">2) <span style="font-size:17px;"><span style="font-size:17px;"><span style="font-size:17px;"><span style="font-size:17px;"><span style="font-size:17px;"><span style="font-family:Calibri;"><span style="font-size:17px;"><span style="font-size:17px;"><span style="font-size:17px;"><span style="font-size:17px;"><span style="font-size:17px;"><span style="font-size:17px;"><span style="font-size:17px;"><span style="font-size:17px;"><span style="font-size:17px;"><span style="font-size:17px;"><span style="font-size:17px;"><span style="font-size:17px;"><span style="font-size:17px;"><span style="font-size:17px;">Double click on the Action to open it in Edit mode</span></span></span></span></span></span>.</span></span></span></span></span></span></span></span></span></span></span></span></span> </span><span style="font-size:17px;">  <span style="font-size:17px;">Go to the ‘<span style="font-size:17px;">Platform</span> Actions’ tab and select the ‘<span style="font-size:17px;"><span style="font-size:17px;"><span style="font-size:17px;"><span style="font-size:17px;"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:17px;"><span style="font-family:Calibri;"><i><span style="font-size:17px"><span style="font-size:17px;"><span style="font-size:17px;"><span style="font-size:17px;"><span style="font-size:17px;">SoapUI Wrapper Action</span></span></span></span></span></i></span></span></span></span></span></span></span></span>’ then click on &#39;Add to Actions&#39; button shown as below.</span></span></span></span></p>
+  <p><span style="font-size:17px;"></span></p>
+  <p><span style="font-size:17px;">                             <img height="229" src="../../../../assets/images/image1891.png" width="296" /></span></p>
   <p><span style="font-size:17px;">                   <br />
               3)    Below screen should be displayed.  <br />
-                  • ‘XML File Location:’ use the Browse button to give the soapUI project XML file.<br />
-                  • The ‘Import XML file to Solution folder’ is used to copy the file to the Ginger Solution folder.<br />
-                  • There is option to Add Respond XML Nodes to the Output Values.<br />
-                  • Checkbox “Ignore Report XML validation” is by default unchecked, the process will check if all the return test steps statuses are “OK” otherwise the action will be failed, </span></p>
-  <p><span style="font-size:17px;">              if you don’t want the process to fail the action based on the statuses, please check this check box. <br />
-                  • By default the process will run all test steps exists on this project XML. If you want to narrow your test scope </span></p>
-  <p><span style="font-size:17px;">               or if you need to configure test case properties please select test suite and test case, if the combo boxes are empty please press refresh button<br />
-                    <img src="../../../../assets/images/image614.png" /></span></p>
+                      • ‘XML File Location:’ use the Browse button to give the soapUI project XML file.<br />
+                      • The ‘Import XML file to Solution folder’ is used to copy the file to the Ginger Solution folder.<br />
+                      • There is option to Add Respond XML Nodes to the Output Values.<br />
+                      • Checkbox “Ignore Report XML validation” is by default unchecked, the process will check if all the return test steps statuses are                     “OK” otherwise the action will be failed,</span><span style="font-size:17px;"> if you don’t want the process to fail the action based on the statuses, please check this check box. <br />
+                     • By default the process will run all test steps exists on this project XML. If you want to narrow your test scope </span></p>
+  <p><span style="font-size:17px;">                  or if you need to configure test case properties please select test suite and test case, if the combo boxes are empty please press refresh button<br />
+                       <img height="441" src="../../../../assets/images/image1892.png" width="694" /></span></p>
   <p><span style="font-size:17px;"><br />
                   From any ‘…’ the user can reach the value expression editor screen and parameterize the inputs:<br />
                     <img src="../../../../assets/images/image615.png" /></span></p>
   <p><span style="font-size:17px;"><br />
-                  • Once Test Case selected the “Configure Test Case Properties” become enabled, </span></p>
-  <p><span style="font-size:17px;">               Click it if you need to configure test case properties or place holder which will be replaced by the process on runtime<br />
-                       <img src="../../../../assets/images/image616.png" /><br />
-                  • Once “Configure Test Case Properties” checked, Radio selection and test case properties grid will become visible to the screen with all the </span></p>
-  <p><span style="font-size:17px;">              relevant properties related to this test case, fill the ones you need and then delete all the rest (not mandatory), </span></p>
-  <p><span style="font-size:17px;">              if you need placeholders instead so please click on Placeholders radio button and add the placeholders you need to replace on runtime.<br />
-                     <img src="../../../../assets/images/image617.png" /></span></p>
+                  • Once Test Case selected,  the “Configure Test Case Properties” become enabled, </span></p>
+  <p><span style="font-size:17px;">                Click it if you need to configure test case properties or place holder which will be replaced by the process on runtime<br />
+                       <img height="445" src="../../../../assets/images/image1894.png" width="797" /></span></p>
+  <p><span style="font-size:17px;"></span><span style="font-size:17px;"><br />
+                   • Once “Configure Test Case Properties” checked, Radio selection and test case properties grid will become visible to the screen                       with all the </span><span style="font-size:17px;"> relevant properties related to this test case, fill the ones you need.   </span></p>
+  <p><span style="font-size:17px;">                Then delete all the rest (not mandatory), </span><span style="font-size:17px;"> if you need placeholders instead so please click on Placeholders radio button and add the placeholders you need to replace on runtime.<br />
+                          <img height="460" src="../../../../assets/images/image1895.png" width="698" /></span></p>
   <p><span style="font-size:17px;">        <br />
-                  • Entering any field from the below screenshot will replace the default value inside the project XML on runtime.<br />
-                     <img src="../../../../assets/images/image618.png" /></span></p>
-  <p><span style="font-size:17px;">               In the screenshot below you can see the required fields<br />
-                     1. Endpoint URL – this is the ‘end point ‘ URL where the request is being sent (same as in SOAP UI)<br />
-                     2. In the event that custom network credentials are required to access the endpoint URL (for example Username = sa , Password=sa) , a radio button  can be marked as ‘Custom’ and then 3 additional fields will be visible allowing the user to populate : username, password and domain <br />
-                     3. SOAP Action – Allows to customize the Action header in the request (if required, or can be used to identify different actions or index them).<br />
-                     4. ‘Do not Fail Action on Bad Response’ - when checkbox is marked no validation will be done on the response code (useful for negative testing).<br />
-                     5. ‘Request Headers’ – by clicking on the ‘+’ sign (#6) the user can add a field which is required in the request e.g. token , in the case of adding a token the values should be as follows:<br />
-                         a. Header = ‘Token’ (or as required per specifications).<br />
-                         b. Value  =  the token value .</span></p>
-  <p>                     <img src="../../../../assets/images/image619.png" /></p>
+                      •  Entering any field from the below screenshot will replace the default value inside the project XML on runtime.<br />
+                           <img height="479" src="../../../../assets/images/image1896.png" width="741" /></span></p>
+  <p><span style="font-size:17px;">                  In the above screenshot you can see the required fields<br />
+                            1. Endpoint URL – this is the ‘end point ‘ URL where the request is being sent (same as in SOAP UI)<br />
+                            2. In the event that custom network credentials are required to access the endpoint URL (for example Username = sa ,                                          Password=sa) , a radio button  can be marked as ‘Custom’ and then 3 additional fields will be visible allowing the user to                                populate : username, password and domain <br />
+                            3. SOAP Action – Allows to customize the Action header in the request (if required, or can be used to identify different actions or index them).<br />
+                            4. ‘Do not Fail Action on Bad Response’ - when checkbox is marked no validation will be done on the response code (useful for negative testing).<br />
+                            5. ‘Request Headers’ – by clicking on the ‘+’ sign (#6) the user can add a field which is required in the request e.g. token , in                                 the case of adding a token the values should be as follows:<br />
+                                   a. Header = ‘Token’ (or as required per specifications).<br />
+                                   b. Value  =  the token value .</span></p>
   <p> </p>
   <p><span style="font-size:17px;">            •    If you need to configure system, global or project properties you shell do it in the below grids.</span></p>
-  <p><span style="font-size:17px;">                  <img src="../../../../assets/images/image620.png" /></span></p>
+  <p><span style="font-size:17px;">                  <img height="465" src="../../../../assets/images/image1898.png" width="725" /></span></p>
   <p><span style="font-size:17px;"><br />
                   •    Run Action.<br />
                   •    After running the action “Open Execution Output Directory” button will become enabled, click it if you wants to see all the generated output files.</span></p>
