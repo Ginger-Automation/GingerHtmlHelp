@@ -6,7 +6,7 @@ model = rh.model;
 rh.consts('DEFAULT_TOPIC', encodeURI("First_Topic.htm"));
 rh.consts('HOME_FILEPATH', encodeURI('index.htm'));
 rh.consts('START_FILEPATH', encodeURI('index.htm'));
-rh.consts('HELP_ID', '39a71fce-399a-4aea-9be7-909b7ac1a576' || 'preview');
+rh.consts('HELP_ID', 'f7e4cca2-dc18-4146-b9d8-ece06c7a7b41' || 'preview');
 rh.consts('LNG_SUBSTR_SEARCH', 0);
 
 model.publish(rh.consts('KEY_LNG_NAME'), "en_US");
@@ -17,7 +17,7 @@ model.publish(rh.consts('KEY_HEADER_DEFAULT_TITLE_COLOR'), "#ffffff");
 model.publish(rh.consts('KEY_HEADER_DEFAULT_BACKGROUND_COLOR'), "#025172");
 model.publish(rh.consts('KEY_LAYOUT_DEFAULT_FONT_FAMILY'), "\"Trebuchet MS\", Arial, sans-serif");
 
-model.publish(rh.consts('KEY_HEADER_TITLE'), "Blank Project");
+model.publish(rh.consts('KEY_HEADER_TITLE'), "Ginger Help Library");
 model.publish(rh.consts('KEY_HEADER_TITLE_COLOR'), "");
 model.publish(rh.consts('KEY_HEADER_BACKGROUND_COLOR'), "");
 model.publish(rh.consts('KEY_HEADER_LOGO_PATH'), "");

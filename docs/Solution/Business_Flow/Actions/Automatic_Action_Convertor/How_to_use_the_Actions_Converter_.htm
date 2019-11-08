@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><script type="text/javascript" language="JavaScript">
+  //<![CDATA[
+  function reDo() {
+    if (innerWidth != origWidth || innerHeight != origHeight)
+      location.reload();
+  }
+  if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+    origWidth = innerWidth;
+    origHeight = innerHeight;
+    onresize = reDo;
+  }
+  onerror = null;
+  //]]>
+</script>
+<style type="text/css">/*<![CDATA[*/
+
+  <!-- div.WebHelpPopupMenu {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 4;
+    visibility: hidden;
+  }
+
+  p.WebHelpNavBar {
+    text-align: right;
+  }
+
+  -->
+
+/*]]>*/</style>
+
+<script type="text/javascript">//<![CDATA[
+
+  gRootRelPath = "../../../..";
+  gCommonRootRelPath = "../../../..";
+  gTopicId = "3.1.1.2.0_3";
+
+//]]></script>
+
+<script type="text/javascript" src="../../../../template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="../../../../template/scripts/common.min.js"></script>
+<script type="text/javascript" src="../../../../template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="../../../../template/scripts/topicwidgets.min.js"></script>
+<link rel="stylesheet" type="text/css" href="../../../../template/styles/topic.min.css"/>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2019"/>
+  <title>How to use the Actions Convertor?</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="../../../../assets/css/default.css"/>
+</head>
+<body>
+  <h1>How to use the Actions Converter?</h1>
+  <p><span style="font-size:17px;">1.  Double click on the desired Business Flow under the Business Flow tab.</span></p>
+  <p><span style="font-size:17px;">2. Click on the &quot;...&quot; (Extra Operations) button and select &quot;Conversion&quot;-&gt; &quot;Legacy Actions Conversion&quot;</span></p>
+  <p><span style="font-size:17px;"> <img height="142" src="../../../../assets/images/image1761.png" width="1014"/></span><span style="font-size:17px;"></span></p>
+  <p><span style="font-size:17px;">               </span></p>
+  <p><span style="font-size: 17px;">3. For example, we have created Flow1 having Legacy Actions.     </span></p>
+  <p>        <img height="393" src="../../../../assets/images/image1762.png" width="808"/></p>
+  <p>    <span style="font-size:17px;">          </span></p>
+  <p><span style="font-size:17px;">  4. Click on ‘Legacy Actions Conversion’ button .<br/>
+             4.1 Actions Conversion Wizard is displayed.  Click on the Next button.<br/>
+                        <img height="291" src="../../../../assets/images/image1763.png" width="661"/></span></p>
+  <p> </p>
+  <p><span style="font-size:17px;">           4.2 The Activities containing legacy flows are displayed here. Select the Activities you want to convert and click on the Next button.</span></p>
+  <p>                 <img height="223" src="../../../../assets/images/image1765.png" width="606"/> </p>
+  <p><span style="font-size:17px;">                      </span></p>
+  <p><span style="font-size:17px;">           4.3  The Legacy Actions are displayed. T<span style="font-size:17px;">heir Source Activities and Target Action Type, which states the Action Type to which the                        old action will be converted to, after the conversion is completed. </span>Select the desired Actions and click on the Next button. <br/>
+                 </span>       <img height="272" src="../../../../assets/images/image1766.png" width="681"/></p>
+  <p> </p>
+  <p><span style="font-size:17px;">             4.4 User can any of the options give below. Each scenario is covered separately at the end of this topic. </span></p>
+  <p><span style="font-size:17px;">                   Click on the Finish button.</span></p>
+  <p>                     <img height="189" src="../../../../assets/images/image1767.png" width="589"/></p>
+  <p><span style="font-size: 17px;">   </span></p>
+  <p><span style="font-size:17px;"></span></p>
+  <p><span style="font-size:17px;"></span></p>
+  <p><span style="font-size:17px;"></span><span style="font-size:17px;"><span style="page:WordSection1"><span style="font-family:Calibri,sans-serif">Let’s consider both the scenarios of Conversion Configurations separately :-</span></span></span></p>
+  <p><span style="font-size:17px;">    <br/>
+      <strong>1. Same Activity with selected Target Application from dropdown list</strong></span></p>
+  <p><span style="font-size:17px;">    When Same Activity is selected and Finish button is clicked, the converted Actions are added in the Same Activities. <br/>
+        </span></p>
+  <p><span style="font-size:17px;">  <img height="189" src="../../../../assets/images/image1767.png" width="589"/><br/>
+       </span></p>
+  <p><span style="font-size:17px;">   The source actions are marked as Inactive and the converted Actions are Active. The Target application of the converted Actions are same as that of the Source Actions.</span></p>
+  <p><span style="font-size:17px;">  <br/>
+         <img height="421" src="../../../../assets/images/image1769.png" width="744"/></span></p>
+  <p> </p>
+  <p><span style="font-size:17px;"><strong>2. New Activity with selected Target Application from dropdown list</strong></span></p>
+  <p><span style="font-size:17px;">    Here a New Activity will be created and the converted Actions will be added in it.                                                                                              User can select another Target application which is compatible with the Source Action&#39;s Target application.</span></p>
+  <p><span style="font-size:17px;">       <img height="324" src="../../../../assets/images/image1770.png" width="663"/><br/>
+       </span></p>
+  <p><span style="font-size:17px;">    We can notice that the old activity has been marked as Inactive and the newly converted activity has been set as Active.</span></p>
+  <p>       <img height="353" src="../../../../assets/images/image1771.png" width="703"/></p>
+  <p> </p>
+  <p><span style="font-size:17px;"><strong>3. Action conversion to use the POM object</strong><br/>
+         User can select the POM object to convert the legacy actions.</span><span style="font-size:17px;"></span></p>
+  <p><span style="font-size:17px;">    For this the solution must have POM Objects added in it. Refer to topic &quot;Page Object Models&quot; for more details on how to add it. <br/>
+          Ginger tries to search the element (control in action) in the POM object and binds the new action with the element searched.</span></p>
+  <p><span style="font-size:17px;">    3.1 Click on the + button to add the desired POM.</span></p>
+  <p><span style="font-size:17px;">          <img height="256" src="../../../../assets/images/image1772.png" width="637"/></span></p>
+  <p> </p>
+  <p><span style="font-size:17px;">   3.2 Click the POM and click on Select button.</span></p>
+  <p><span style="font-size:17px;">             <img src="../../../../assets/images/image1773.png"/></span></p>
+  <p> </p>
+  <p><span style="font-size:17px;">    3.3 The POM gets added in the grid. Click on the Finish button.</span></p>
+  <p><span style="font-size:17px;">              <img height="267" src="../../../../assets/images/image1774.png" width="680"/><br/>
+        </span></p>
+  <p><span style="font-size:17px;">               <img height="412" src="../../../../assets/images/image1776.png" width="642"/></span></p>
+  <p> </p>
+  <p><span style="font-size:17px;">              The old  TextBox Action.</span></p>
+  <p><span style="font-size:17px;">              <img height="184" src="../../../../assets/images/image1777.png" width="591"/><br/>
+        </span></p>
+  <p><span style="font-size:17px;"> </span></p>
+  <p><span style="font-size:17px;">              The converted Textbox Action using POM.</span></p>
+  <p><span style="font-size:17px;">                <img height="329" src="../../../../assets/images/image1778.png" width="684"/><br/>
+       </span></p>
+  <p><span style="font-size:17px;"><strong>4.    Some troubleshooting tips</strong><br/>
+          a)    The Actions Converter has been tested against a number of ASCF Driver-based scenarios, with different business flows from different <br/>
+                  projects but there could be some edge-cases, where it may encounter issues while conversion. In such cases, we advise the users to <br/>
+              manually configure the obsolete action causing issue like mapping of values – Locate Value, Column Number or Column Title etc. <br/>
+              from the old action with the new UIElement Action.</span></p>
+  <p><span style="font-size:17px;">    b)    If the users still face issues with the converter beyond their control, they are requested to share the scenarios with the <br/>
+                 Ginger Core Team.  They can then look into it and fix it as soon as possible to make the converter more robust and intuitive. <br/>
+                 Feedback and suggestions are also welcome.</span></p>
+  <p><span style="font-size:17px;">    c)    It is recommended to choose a New Activity in Conversion Configurations section to add the newly converted actions.</span></p>
+
+</body></html>
