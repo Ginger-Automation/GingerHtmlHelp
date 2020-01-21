@@ -39,4 +39,9 @@
     <path>../skins/Azure_Blue/html5.skn</path>
   </skin>
   <createThumbNails type="boolean">true</createThumbNails>
+  <serversStatus type="array">
+    <serversStatusitem>
+      <name>Profile_1</name>
+    </serversStatusitem>
+  </serversStatus>
 </preset>

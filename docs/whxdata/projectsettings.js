@@ -6,7 +6,7 @@ model = rh.model;
 rh.consts('DEFAULT_TOPIC', encodeURI("First_Topic.htm"));
 rh.consts('HOME_FILEPATH', encodeURI('index.htm'));
 rh.consts('START_FILEPATH', encodeURI('index.htm'));
-rh.consts('HELP_ID', 'f7e4cca2-dc18-4146-b9d8-ece06c7a7b41' || 'preview');
+rh.consts('HELP_ID', '928f2127-d25c-48eb-aa22-629936df48aa' || 'preview');
 rh.consts('LNG_SUBSTR_SEARCH', 0);
 
 model.publish(rh.consts('KEY_LNG_NAME'), "en_US");

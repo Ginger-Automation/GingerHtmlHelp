@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><script type="text/javascript" language="JavaScript">
+  //<![CDATA[
+  function reDo() {
+    if (innerWidth != origWidth || innerHeight != origHeight)
+      location.reload();
+  }
+  if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+    origWidth = innerWidth;
+    origHeight = innerHeight;
+    onresize = reDo;
+  }
+  onerror = null;
+  //]]>
+</script>
+<style type="text/css">/*<![CDATA[*/
+
+  <!-- div.WebHelpPopupMenu {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 4;
+    visibility: hidden;
+  }
+
+  p.WebHelpNavBar {
+    text-align: right;
+  }
+
+  -->
+
+/*]]>*/</style>
+
+<script type="text/javascript">//<![CDATA[
+
+  gRootRelPath = "../../..";
+  gCommonRootRelPath = "../../..";
+  gTopicId = "3.1.3.0_2";
+
+//]]></script>
+
+<script type="text/javascript" src="../../../template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="../../../template/scripts/common.min.js"></script>
+<script type="text/javascript" src="../../../template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="../../../template/scripts/topicwidgets.min.js"></script>
+<link rel="stylesheet" type="text/css" href="../../../template/styles/topic.min.css"/>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2019"/>
+  <title>What is Action Variable Dependency?</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="../../../assets/css/default.css"/>
+</head>
+<body>
+  <h1>What is Action Variable Dependency?</h1>
+  <p><span style="font-size:17px;">    1.    To Activate Variable Dependency, go to automate page and Click on the Actions-Variable Dependencies.<br/>
+                    <img height="359" src="../../../assets/images/image1959.png" width="987"/></span></p>
+  <p><span style="font-size:17px;"><br/>
+       <br/>
+          2.    In the pop window, enable checkbox Actions-Variables Dependencies Control. Click OK.</span><br/>
+                <img height="328" src="../../../assets/images/image1960.png" width="830"/></p>
+  <p> </p>
+  <p><span style="font-size:17px;">    3.    Then click on Activity Variable and add one selection list variable.<br/>
+                     <img src="../../../assets/images/image1961.png"/></span></p>
+  <p><span style="font-size:17px;">    4.    Open Edit page of variable selection list and add optional values in that list.<br/>
+                   <img src="../../../assets/images/image1962.png"/></span></p>
+  <p> </p>
+  <p><span style="font-size:17px;">    5.    Repeat Step-a and open Actions-Variables Dependencies page. Now we can see the new extra columns of variable selection list                     values followed by actions.<br/>
+                 <img src="../../../assets/images/image1963.png"/></span></p>
+  <p><span style="font-size:17px;">    6.    Here for variable selection list: Chrome, selected actions are 1st and 2nd that means for variable value Chrome, only those actions                 gets executed. Like that, for variable selection list: Firefox, selected activities are 3rd and 4th that means for variable value Firefox,               only those actions gets executed.<br/>
+                 <img src="../../../assets/images/image1964.png"/></span></p>
+  <p> </p>
+  <p><span style="font-size:17px;">    7.     By default variable selection list value is first means here selected value: Chrome, so only 1st and 2nd actions gets executed and                    remaining are marked as skipped.<br/>
+                  Let’s move towards the execution, click on Run Activity you can see activity execution like below.<br/>
+                  <img src="../../../assets/images/image1965.png"/></span></p>
+  <p><span style="font-size:17px;">    8.    Now open the edit page of variable list and change the selected value: Firefox.<br/>
+                  <img src="../../../assets/images/image1966.png"/></span></p>
+  <p><span style="font-size:17px;">    9.    Click on Run Activity and you can see only 3rd and 4th actions gets executed for value Firefox.</span></p>
+  <p>           <img src="../../../assets/images/image1967.png"/></p>
+
+</body></html>
