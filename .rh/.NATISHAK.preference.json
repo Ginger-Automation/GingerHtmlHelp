@@ -1,8 +1,48 @@
 {
   "recent-files::internal:document": [{
+    "path": "C:/Ginger Help Libs/GingerHtmlHelp/contents/Plugins/What_is_Ginger_Plugins_.htm",
+    "pinned": false,
+    "time": "Jan 21, 3:27 PM"
+  }, {
+    "path": "C:/Ginger Help Libs/GingerHtmlHelp/contents/Solution/Business_Flow/Variables/What_is_Action_Variable_Dependency_.htm",
+    "pinned": false,
+    "time": "Jan 21, 3:12 PM"
+  }, {
+    "path": "C:/Ginger Help Libs/GingerHtmlHelp/contents/Solution/Business_Flow/Actions/General_Actions/Clear_All_the_Variables_Action.htm",
+    "pinned": false,
+    "time": "Jan 21, 2:56 PM"
+  }, {
+    "path": "C:/Ginger Help Libs/GingerHtmlHelp/contents/Solution/Business_Flow/Actions/What_is_an_Action_.htm",
+    "pinned": false,
+    "time": "Jan 21, 2:56 PM"
+  }, {
+    "path": "C:/Ginger Help Libs/GingerHtmlHelp/contents/Solution/Business_Flow/Variables/Variable_Types_Overview/Activity_Variables.htm",
+    "pinned": false,
+    "time": "Jan 21, 2:56 PM"
+  }, {
+    "path": "C:/Ginger Help Libs/GingerHtmlHelp/contents/Solution/Business_Flow/Variables/What_is_a_Variable_.htm",
+    "pinned": false,
+    "time": "Jan 21, 2:54 PM"
+  }, {
+    "path": "C:/Ginger Help Libs/GingerHtmlHelp/contents/Solution/Business_Flow/Variables/What_is_Variable_Dependency_.htm",
+    "pinned": false,
+    "time": "Jan 21, 2:53 PM"
+  }, {
+    "path": "C:/Ginger Help Libs/GingerHtmlHelp/contents/Videos/Video_-_Legacy_Actions_Conversion_Enhancements.htm",
+    "pinned": false,
+    "time": "Nov 13, 2:05 PM"
+  }, {
+    "path": "C:/Ginger Help Libs/GingerHtmlHelp/contents/Videos/Video_on_Auto_Pilot-_API_Models.htm",
+    "pinned": false,
+    "time": "Nov 13, 2:01 PM"
+  }, {
+    "path": "C:/Ginger Help Libs/GingerHtmlHelp/contents/Videos/Video_-_API_Models_Comparison.htm",
+    "pinned": false,
+    "time": "Nov 13, 1:59 PM"
+  }, {
     "path": "C:/Ginger Help Libs/GingerHtmlHelp/publish/presets/Responsive HTML5.preset",
     "pinned": false,
-    "time": "Nov 8, 7:21 PM"
+    "time": "Nov 13, 1:38 PM"
   }, {
     "path": "C:/Ginger Help Libs/GingerHtmlHelp/contents/Plugins/PACT_Plugin/How_to_Compile_PACT_Document_.htm",
     "pinned": false,
@@ -27,10 +67,6 @@
     "path": "C:/Ginger Help Libs/GingerHtmlHelp/contents/Plugins/PACT_Plugin/How_to_Edit_PACT_Document_.htm",
     "pinned": false,
     "time": "Nov 8, 7:00 PM"
-  }, {
-    "path": "C:/Ginger Help Libs/GingerHtmlHelp/contents/Plugins/What_is_Ginger_Plugins_.htm",
-    "pinned": false,
-    "time": "Nov 8, 6:57 PM"
   }, {
     "path": "C:/Ginger Help Libs/GingerHtmlHelp/contents/Plugins/TestNG_Plugin/How_to_Execute_TestNG_Flow_using_Free_Command_.htm",
     "pinned": false,
@@ -63,42 +99,6 @@
     "path": "C:/Ginger Help Libs/GingerHtmlHelp/contents/Introduction/What_is_Ginger_.htm",
     "pinned": false,
     "time": "Nov 8, 5:52 PM"
-  }, {
-    "path": "C:/Ginger Help Libs/GingerHtmlHelp/contents/Tabs/Business_Flows.htm",
-    "pinned": false,
-    "time": "Nov 8, 5:47 PM"
-  }, {
-    "path": "C:/Ginger Help Libs/GingerHtmlHelp/contents/Source_Control/What_are_the_different_color_indicate_while_using_the_Repository_.htm",
-    "pinned": false,
-    "time": "Nov 8, 5:47 PM"
-  }, {
-    "path": "C:/Ginger Help Libs/GingerHtmlHelp/contents/Source_Control/What_are_different_types_of_Repository_.htm",
-    "pinned": false,
-    "time": "Nov 8, 5:47 PM"
-  }, {
-    "path": "C:/Ginger Help Libs/GingerHtmlHelp/contents/Source_Control/How_to_use_GIT_repository_.htm",
-    "pinned": false,
-    "time": "Nov 8, 5:47 PM"
-  }, {
-    "path": "C:/Ginger Help Libs/GingerHtmlHelp/contents/Source_Control/How_to_Undo_changes_done_in_the_solution_.htm",
-    "pinned": false,
-    "time": "Nov 8, 5:47 PM"
-  }, {
-    "path": "C:/Ginger Help Libs/GingerHtmlHelp/contents/Source_Control/How_to_Resolve_Conflicts_.htm",
-    "pinned": false,
-    "time": "Nov 8, 5:47 PM"
-  }, {
-    "path": "C:/Ginger Help Libs/GingerHtmlHelp/contents/Source_Control/How_to_get_repository_details_.htm",
-    "pinned": false,
-    "time": "Nov 8, 5:47 PM"
-  }, {
-    "path": "C:/Ginger Help Libs/GingerHtmlHelp/contents/Source_Control/How_to_get_latest_solution_from_SVN_.htm",
-    "pinned": false,
-    "time": "Nov 8, 5:47 PM"
-  }, {
-    "path": "C:/Ginger Help Libs/GingerHtmlHelp/contents/Source_Control/How_to_download_a_solution_.htm",
-    "pinned": false,
-    "time": "Nov 8, 5:47 PM"
   }],
   "recent-files::internal:hyperlink": [{
     "path": "C:/Ginger Help Libs/GingerHtmlHelp/contents/Introduction/What_is_Ginger_.htm",

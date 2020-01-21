@@ -84,6 +84,8 @@
       </book>
       <book navtitle="Variables">
         <page href="../contents/Solution/Business_Flow/Variables/What_is_a_Variable_.htm"></page>
+        <page href="../contents/Solution/Business_Flow/Variables/What_is_Action_Variable_Dependency_.htm"></page>
+        <page href="../contents/Solution/Business_Flow/Variables/What_is_Variable_Dependency_.htm"></page>
         <book navtitle="Variable_Types_Overview">
           <page href="../contents/Solution/Business_Flow/Variables/Variable_Types_Overview/Activity_Variables.htm"></page>
           <page href="../contents/Solution/Business_Flow/Variables/Variable_Types_Overview/Business_Flow_Variables.htm"></page>
