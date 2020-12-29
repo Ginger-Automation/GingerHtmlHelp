@@ -355,5 +355,8 @@
     <page href="../contents/Videos/Video_on_How_to_use_Web_Services_Virtualization_(PACT)_Support_in_Ginger_.htm"></page>
     <page href="../contents/Videos/Video_on_Run_set_Configurations_&amp;_Execution_Guide.htm"></page>
     <page href="../contents/Videos/Video_on_What_is_Enhanced_Command_Line_Execution_.htm"></page>
+    <page href="../contents/Videos/Video_on_Auto_Pilot-_Support_for_Java_Widgets.htm"></page>
+    <page href="../contents/Videos/Video_on_ALM_Integrations.htm"></page>
+    <page href="../contents/Videos/Video_on_Ginger_Performance_Improvements.htm"></page>
   </book>
 </map>
